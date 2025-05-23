@@ -24,6 +24,8 @@ img {
   text-decoration: none;
 }
 
-h1 {
-  color: red;
+.container__gray {
+  width: 375px;
+  padding: 80px 16px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
