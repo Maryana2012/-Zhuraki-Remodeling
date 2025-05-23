@@ -2,6 +2,7 @@
     width: 375px;
     padding: 80px 16px;
     margin: 0 auto;
+    background-color: var(--bg);
     @include tablet{
         width: 744px;
         padding: 120px 40px;
@@ -16,6 +17,7 @@
     width: 375px;
     padding: 48px 16px;
     margin: 0 auto;
+    background-color: var(--bg);
     @include tablet{
         width: 744px;
         padding: 48px 40px;
@@ -23,5 +25,39 @@
     @include desktop{
         width: 1440px;
         padding: 80px 80px;
+    }
+}
+
+.title{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 12px;
+    @include tablet{
+        font-size: 64px;
+        margin-bottom: 18px;
+    }
+    @include desktop{
+        font-size: 96px;
+        margin-bottom: 16px;
+    }
+}
+.text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--black-2);
+    
+    @include tablet{
+        font-size: 18px;
+        
+    }
+    @include desktop{
+        font-size: 18px;
+        
     }
 }

@@ -1,5 +1,8 @@
 @import './base/reset.scss';
+@import './utils/mixin.scss';
 @import './base/common.scss';
 @import './utils/variables.scss';
-@import './utils/mixin.scss';
+
+@import './layouts/header.scss';
+@import './layouts/section-hero.scss';
 

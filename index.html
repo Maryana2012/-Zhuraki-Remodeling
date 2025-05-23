@@ -18,16 +18,42 @@
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-  <header>
-     <a href="./index.html">
-        <!-- <svg >
-            <use href="./images/symbol-defs.svg#icon-logo"></use>
-        </svg> -->
-
-        <svg width="80" height="24">
-            <use href="./images/symbol-defs.svg#icon-logo"></use>
-          </svg>
+  <header class="container__header">
+     <a href="./index.html" class="link">
+        <svg class="logo">
+          <use href="./images/symbol-defs.svg#icon-logo"></use>
+        </svg>
      </a>
+     <nav>
+      <ul class="header__navigation">
+        <li class="list">
+          <a href="./index.html" class="link header__text">Home</a> </li>
+        <li class="list">
+          <a href="./gallery.html" class="link header__text">Gallery</a></li>
+      </ul>
+     </nav>
+     <a href="tel:3125361007" class="link header__phone header__text" >312-536-1007</a>
+
+     <a href="./index.html" class="link header__instagram">
+       <img src="./images/Instagram.svg" alt="instagram" width="24" height="24">
+     </a>
+
+     <button class="header__button-form header__text">Get a free Quote</button>
+
+     <button class="header__button-menu">
+       <img src="./images/menu-bar.svg" alt="menu-bar" width="24" height="24">
+     </button>
   </header>
+
+  <section class="container__gray">
+      <h1></h1>
+      <h2 class="title">Home Remodeling <span class="hero__title-span">You Can Count On</span></h2>
+      <div>
+        <article class="text">Transforming Kitchens, Bathrooms, Basements & More — With Quality Work and Honest Service</article>
+        <button>View My Work
+          <img src="./images/arrow-right.svg" alt="arrow-right">
+        </button>
+      </div>
+    </section>
 </body>
 </html>

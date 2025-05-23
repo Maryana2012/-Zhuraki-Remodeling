@@ -1,0 +1,101 @@
+.container__header{
+    display: flex;
+    width: 375px;
+    padding: 20px 16px;
+    margin: 0 auto;
+    background-color: var(--bg);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--beidg);
+    @include tablet{
+        width: 744px;
+        padding: 20px 40px;
+    }
+    @include desktop{
+        width: 1440px;
+        padding: 22px 80px;
+    }
+}
+
+.logo{
+    width: 150px;
+    height: 18px;
+    margin-top: 3px;
+    @include tablet{
+        width: 209px;
+        height: 25px;
+        margin-top: 3px;
+    }
+    @include desktop{
+        width: 209px;
+        height: 25px;
+        margin-top: 3px;
+    }
+}
+.header__navigation{
+     display: none;
+     @include desktop{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-left: 344px;
+     }
+}
+.header__link{
+
+}
+.header__phone{
+   margin-left: 50px;
+   @include tablet{
+    margin-left: 72px;
+   }
+}
+
+.header__instagram{
+    display: none;
+    @include tablet{
+        display: block;
+    }
+    @include desktop{
+        display: block;
+    }
+}
+.header__button-form{
+    display: none;
+    @include tablet{
+        display: block;
+        border: 2px solid var(--beidg);
+        border-radius: 24px;
+        padding: 10px 16px;    
+    }
+    @include desktop{
+        display: block;
+         border: 2px solid var(--beidg);
+        border-radius: 24px;
+        padding: 10px 16px;
+    }
+}
+.header__button-menu{
+    border: none;
+    @include desktop{
+        display: none;
+    }
+}
+.mob__menu{
+    width: 24px;
+    height: 24px;
+}
+
+.header__text{
+       font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: var(--black-2);
+        @include tablet{
+            font-size: 16px;
+        }
+        @include desktop{
+            font-size: 16px;
+        }
+}

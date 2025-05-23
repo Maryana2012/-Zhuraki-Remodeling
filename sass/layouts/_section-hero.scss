@@ -1,0 +1,5 @@
+.hero__title-span{
+    @include desktop{
+        margin-left: 217px;
+    }
+}
