@@ -125,3 +125,24 @@
 .black{
     color: var(--black);
 }
+.solve__text{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--gray-2); 
+    margin-bottom: 20px;
+    @include tablet{
+        font-size: 24px;
+        width: 322px;
+        margin-bottom: 0;
+    }
+    @include desktop{
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+}
+.black__2{
+    color: var(--black-2);
+}
