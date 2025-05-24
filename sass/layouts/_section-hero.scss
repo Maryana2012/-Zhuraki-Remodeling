@@ -3,3 +3,58 @@
         margin-left: 217px;
     }
 }
+
+.hero__text{
+    width: 100%;
+    margin-bottom: 16px;
+    @include tablet{
+     width: 407px;
+     margin-bottom: 0;
+    }
+    @include desktop{
+     width: 407px;
+     margin-left: 237px;
+      margin-bottom: 0;
+    }
+}
+.hero__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--black);
+    padding: 12px 14px 12px 24px;
+    @include tablet{
+        width: 236px;   
+    }
+    @include desktop{
+        width: 413px;
+    }
+}
+.hero__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    @include tablet{
+        flex-direction: row;
+    }
+    @include desktop{
+        flex-direction: row;
+    }
+}
+.hero_image{
+    width: 375px;
+    height: 529px;
+    margin: 0 auto;
+    @include tablet{
+        width: 744px;
+        height: 624px;
+    }
+    @include desktop{
+        width: 1440px;
+        height: 533px;
+    }
+}
