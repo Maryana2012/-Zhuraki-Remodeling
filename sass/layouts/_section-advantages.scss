@@ -1,0 +1,31 @@
+.advantages__container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @include tablet{
+    gap: 20px;
+  }
+  @include desktop{
+     gap: 20px;
+  }
+}
+.advantages__article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 48px 12px 12px 12px;
+    background-color: var(--bg-2);
+}
+.advantages__svg{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.advantages__link{
+    width: 100%;
+    border: 2px solid var(--beidg);
+    border-radius: 24px;
+    padding: 10px 16px;
+}

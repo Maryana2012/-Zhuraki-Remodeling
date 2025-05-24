@@ -1,0 +1,28 @@
+.section__help{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--beidg);
+    @include tablet{
+        padding-bottom: 24px;
+    }
+    @include desktop{
+        flex-direction: row;
+        padding-bottom: 24px;
+    }
+}
+.help__image{
+    width: 343px;
+    height: 99px;
+    margin-top: 20px;
+    @include tablet{
+        width: 664px;
+        height: 191px;
+        margin-top: 20px;
+    }
+    @include desktop{
+        width: 413px;
+        height: 154px;
+        margin-top: 0;
+    }
+}

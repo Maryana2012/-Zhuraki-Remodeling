@@ -45,6 +45,42 @@
         margin-bottom: 16px;
     }
 }
+.subtitle{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 16px;
+    @include tablet{
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
+    @include desktop{
+        font-size: 64px;
+         margin-bottom: 32px;
+    }
+}
+.subtitle__article{
+    display: flex;
+    align-content: flex-start;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 12px;
+    @include tablet{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    @include desktop{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+}
 .text{
     font-family: var(--font-family);
     font-weight: 400;
@@ -68,6 +104,19 @@
     line-height: 120%;
     text-transform: uppercase;
     color: var(--pure-white);
+}
+.text__article{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--gray-2);
+    @include tablet{
+        font-size: 18px;
+    }
+    @include desktop{
+        font-size: 18px;
+    }
 }
 
 .button__svg{
