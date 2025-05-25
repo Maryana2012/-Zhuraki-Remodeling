@@ -15,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -163,94 +166,139 @@
 </section>
 
 <section class="container__gray works__container">
-<div>
   <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">Basement Remodel </h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
+  <div class="works__block">
+  
+    <div class="works__text__container">
+         <h3 class="solve__text black__2 works__subtitle">Basement Remodel </h3>
+         <p class="works__text">Jersey City, NJ</p>
+         <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
+        </div>
+        <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
+          <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
+        </a>
+
   </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
+
+  <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+<div class="swiper-slide">
+     <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163338/zhuraki/main%20page%20gallery/1_desk_1x-min_rywcdb.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/1_desk_2x-min_zsdeam.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/1_tab_1x-min_mxc1ym.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/1_tab_2x-min_dagdtf.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163338/zhuraki/main%20page%20gallery/1_mob_1x-min_v9fn8j.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/1_mob_2x-min_ng7tac.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163338/zhuraki/main%20page%20gallery/1_mob_1x-min_v9fn8j.jpg" alt="modern room"  />
+      </picture>
 </div>
 
-<div>
-  <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">Basement Remodel </h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
-  </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
+<div class="swiper-slide">
+  <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_desk_1x-min_a3qera.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_desk_2x-min_mclxm9.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_tab_1x-min_qzcoje.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_tab_2x-min_adb411.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_mob_2x-min_hogiij.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_mob_1x-min_mxqoae.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163339/zhuraki/main%20page%20gallery/2_mob_2x-min_hogiij.jpg" alt="modern room"  />
+  </picture>
 </div>
 
-<div>
-  <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">fireplace Remodel  </h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
-  </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
+<div class="swiper-slide">
+  <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163340/zhuraki/main%20page%20gallery/3_desk_1x-min_x90i3g.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163340/zhuraki/main%20page%20gallery/3_desk_2x-min_tgj0w8.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163342/zhuraki/main%20page%20gallery/3_tab_1x-min_t2ms9m.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163342/zhuraki/main%20page%20gallery/3_tab_2x-min_z59gmm.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163341/zhuraki/main%20page%20gallery/3_mob_1x-min_i7mswa.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163342/zhuraki/main%20page%20gallery/3_mob_2x-min_er3dyv.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163341/zhuraki/main%20page%20gallery/3_mob_1x-min_i7mswa.jpg" alt="modern room"  />
+  </picture>
 </div>
 
-
-
-<div>
-  <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">kITCHEN Remodel</h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
-  </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
+<div class="swiper-slide">
+     <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163342/zhuraki/main%20page%20gallery/4_desk_1x-min_woj7tc.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163343/zhuraki/main%20page%20gallery/4_desk_2x-min_q01yhs.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163344/zhuraki/main%20page%20gallery/4_tab_1x-min_s7qch2.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163344/zhuraki/main%20page%20gallery/4_tab_2x-min_jtpkva.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163344/zhuraki/main%20page%20gallery/4_mob_1x-min_mdsucg.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163344/zhuraki/main%20page%20gallery/4_mob_2x-min_yk3ue2.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163344/zhuraki/main%20page%20gallery/4_mob_1x-min_mdsucg.jpg" alt="modern room"  />
+  </picture>
 </div>
 
-<div>
-  <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">BATHROOM Remodel</h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
-  </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
-</div>
-<div>
-  <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">BATHROOM Remodel  </h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
-  </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
+<div class="swiper-slide">
+    <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163344/zhuraki/main%20page%20gallery/5_desk_1x-min_ilfmey.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163346/zhuraki/main%20page%20gallery/5_desk_2x-min_xxtcth.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165932/zhuraki/main%20page%20gallery/5_tab_1x-min_apyzvo.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165932/zhuraki/main%20page%20gallery/5_tab_2x-min_fnvugv.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165931/zhuraki/main%20page%20gallery/5_mob_1x-min_gpu9sg.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165932/zhuraki/main%20page%20gallery/5_mob_2x-min_hmmr2u.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165931/zhuraki/main%20page%20gallery/5_mob_1x-min_gpu9sg.jpg" alt="modern room"  />
+  </picture>
 </div>
 
-<div>
-  <h2 class="subtitle works_title">A Look at Our Work</h2>
-  <div class="works__text__container">
-    <h3 class="solve__text black__2 works__subtitle">fireplace Remodel </h3>
-    <p class="works__text">Jersey City, NJ</p>
-    <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
-  </div>
-  <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
-    <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-  </a>
+<div class="swiper-slide">
+    <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163347/zhuraki/main%20page%20gallery/6_desk_1x-min_tzkx91.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163348/zhuraki/main%20page%20gallery/6_desk_2x-min_pcjg6q.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165935/zhuraki/main%20page%20gallery/6_tab_1x-min_mm4gvv.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165935/zhuraki/main%20page%20gallery/6_tab_2x-min_fmbs4i.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165932/zhuraki/main%20page%20gallery/6_mob_1x-min_nhgcwu.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165935/zhuraki/main%20page%20gallery/6_mob_2x-min_nqpvp8.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748165932/zhuraki/main%20page%20gallery/6_mob_1x-min_nhgcwu.jpg" alt="modern room"  />
+  </picture>
 </div>
 
+<div class="swiper-slide">
+  <picture>
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163349/zhuraki/main%20page%20gallery/7_desk_1x-min_q3pbjv.jpg 1x,
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163351/zhuraki/main%20page%20gallery/7_desk_2x-min_srcrtj.jpg 2x" 
+              media="(min-width: 1440px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163351/zhuraki/main%20page%20gallery/7_tab_1x-min_xjbkxs.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163352/zhuraki/main%20page%20gallery/7_tab_2x-min_tz7nmc.jpg 2x" 
+              media="(min-width: 744px) and (max-width: 1439px)" />
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163351/zhuraki/main%20page%20gallery/7_mob_1x-min_r8is60.jpg 1x, 
+              https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163351/zhuraki/main%20page%20gallery/7_mob_2x-min_yo7dy5.jpg 2x" 
+              media="(max-width: 743px)" />
+           <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163351/zhuraki/main%20page%20gallery/7_mob_1x-min_r8is60.jpg" alt="modern room"  />
+  </picture>
+</div>
 
-
-
+ </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
 </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script type="module" src="./js/swiper.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+<script type="module" src="./js/slick.js"></script>
 </body>
 </html>
