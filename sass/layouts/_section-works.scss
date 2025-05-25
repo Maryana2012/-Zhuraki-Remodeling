@@ -91,3 +91,43 @@
     }
     
 }
+
+.custom__prev, .custom__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.custom__prev {
+  left: 10px;
+}
+
+.custom__next {
+  right: 10px;
+}
+
+.mySwiperThumbs{
+    width: 290px;
+    @include tablet{
+        width: 590px;
+    }
+    @include desktop{
+        width: 700px;
+        margin-left: 500px;
+    }
+}
+.mySwiper{
+    margin-bottom: 24px;
+}
+.mySwiperThumbs .swiper-slide {
+  width: auto;
+  height: 100%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.mySwiperThumbs .swiper-slide-thumb-active {
+  opacity: 1;
+}
