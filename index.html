@@ -406,18 +406,20 @@
       <div class="modal__container">
 
         <button class="button__close modal-close">
-          <svg width="30" height="30">
-            <use href="./images/close.svg"></use>
-          </svg>
+          <img src="./images/close.svg" alt="icon for close" width="24" height="24" class="form__svg">
          </button>
-        <form id="reviewForm" class="form">
-          <div class="form__container">
-            <input type="text" id="name" placeholder="Your name" required  class="input"/>
-            <textarea id="review" placeholder="Your review" required class="textarea"></textarea>
 
+        <form id="reviewForm" class="form">
+          <h2 class="solve__text pure-white ">Get a Free Quote</h2>
+          <div class="form__container">
+            <input type="text" id="name" placeholder="Your name" required  class="input form__text"/>
+            <input type="text" id="city" placeholder="City" required  class="input form__text"/>
+            <textarea id="review" placeholder="Your review" required class="textarea form__text"></textarea>
           </div>
-        <button type="submit" class="button">Submit</button>
+
+        <button type="submit" class=" text__link button ">Submit</button>
         </form>
+
         <div id="status"></div>
       </div>
      </div>
