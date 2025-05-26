@@ -12,10 +12,10 @@ const swiper = new Swiper('.mySwiper', {
   },
   loop: true,
   spaceBetween: 20,
-  autoplay: {
-  delay: 2000, 
-    disableOnInteraction: false, 
-  },
+  // autoplay: {
+  // delay: 2000, 
+  //   disableOnInteraction: false, 
+  // },
    thumbs: {
     swiper: swiperThumbs,
   },

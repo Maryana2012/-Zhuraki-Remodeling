@@ -356,9 +356,78 @@
 </div>
 </section>
 
+<section class="container__white">
+  <h2 class="subtitle solve__subtitle">Testimonials</h2>
+    <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+<div class="swiper-slide">
+    <div class="testimonials__item">
+
+    </div>
+</div>
+
+<div class="swiper-slide">
+    <div class="testimonials__item" >
+
+    </div>
+</div>
+
+<div class="swiper-slide">
+    <div  class="testimonials__item">
+
+  </div>
+</div>
+
+ </div>
+
+  <div class=" custom__next">
+    <img src="./images/arrow-next.svg" alt="arrow-next" width="24" height="24">
+  </div>
+  <div class=" custom__prev">
+    <img src="./images/arrow-prew.svg" alt="arrow-prev" width="24" height="24">
+  </div>
+
+</div>
+<button type="button" class="text testimonials__button modal-open" >Leave review</button>
+
+
+</section>
+
+<!-- <form id="reviewForm">
+  <input type="text" id="name" placeholder="Your name" required />
+  <textarea id="review" placeholder="Your review" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+<div id="status"></div> -->
+
+<div class="backdrop is-hidden">
+     <div class="modal">
+      <div class="modal__container">
+
+        <button class="button__close modal-close">
+          <svg width="30" height="30">
+            <use href="./images/close.svg"></use>
+          </svg>
+         </button>
+        <form id="reviewForm" class="form">
+          <div class="form__container">
+            <input type="text" id="name" placeholder="Your name" required  class="input"/>
+            <textarea id="review" placeholder="Your review" required class="textarea"></textarea>
+
+          </div>
+        <button type="submit" class="button">Submit</button>
+        </form>
+        <div id="status"></div>
+      </div>
+     </div>
+  </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script type="module" src="./js/swiper.js"></script>
-<script type="module" src="./js/slick.js"></script>
+<!-- <script type="module" src="./js/slick.js"></script> -->
+<script type="module" src="./js/settingsFB.js"></script>
+<script type="module" src="./js/review-modal.js"></script>
 </body>
 </html>
