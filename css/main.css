@@ -560,6 +560,12 @@ img {
   }
 }
 
+.picture__form {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
 .section__help {
   display: flex;
   flex-direction: column;
@@ -1041,7 +1047,6 @@ img {
 }
 
 .form {
-  position: relative;
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 12px;
