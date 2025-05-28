@@ -32,5 +32,16 @@ const swiperTestimonial = new Swiper('.testimonialSwiper', {
   delay: 2000, 
     disableOnInteraction: false, 
   },
+   breakpoints: {
+    375: {
+      slidesPerView: 1,
+    },
+    744: {
+      slidesPerView: 2,
+    },
+    1440: {
+      slidesPerView: 3,
+    }
+  }
 
 });

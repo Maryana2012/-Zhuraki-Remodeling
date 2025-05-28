@@ -6,12 +6,12 @@
     backdrop-filter: blur(20px);
     background-color: rgba(0, 0, 0, 0.2);
     @include tablet{
-        width: 322px;
+        width: 382px;
         padding: 16px;
     }
     @include desktop{
-        width: 413px;
-         padding: 16px;
+        width: 423px;
+        padding: 16px;
     }
 }
 .form__container{
@@ -47,7 +47,9 @@
 .input:nth-child(even){
     margin-right: 0;
 }
-
+.testimonials__textarea{
+    height: 100px;
+}
 .form__text{
     font-family: var(--font3);
     font-weight: 300;
