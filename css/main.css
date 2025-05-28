@@ -1243,4 +1243,130 @@ img {
     top: 110px;
     left: 14px;
   }
+}
+
+.running__container {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 16px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .running__container {
+    padding-top: 154px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .running__container {
+    padding-top: 260px;
+    padding-left: 60px;
+  }
+}
+
+.running__svg {
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .running__svg {
+    width: 664px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .running__svg {
+    width: 1280px;
+    height: 96px;
+    margin-bottom: 16px;
+  }
+}
+
+.running__img-first {
+  position: absolute;
+  width: 120px;
+  height: 108px;
+  top: 0;
+  left: 60px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .running__img-first {
+    width: 236px;
+    height: 210px;
+    top: 0;
+    left: 133px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .running__img-first {
+    width: 413px;
+    height: 369px;
+    top: 0;
+    left: 293px;
+  }
+}
+
+.running__img-second {
+  position: absolute;
+  width: 74px;
+  height: 72px;
+  top: 36px;
+  left: 285px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .running__img-second {
+    width: 151px;
+    height: 140px;
+    top: 70px;
+    left: 545px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .running__img-second {
+    width: 198px;
+    height: 247px;
+    top: 122px;
+    left: 1125px;
+  }
+}
+
+.string__wrapper {
+  overflow: hidden;
+  width: 100%;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.string__container {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .string__container {
+    width: 119%;
+  }
+}
+
+.string__item {
+  display: inline-block;
+  flex-wrap: nowrap;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+.running__article {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }/*# sourceMappingURL=main.css.map */
