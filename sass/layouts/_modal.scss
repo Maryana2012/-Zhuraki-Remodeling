@@ -10,10 +10,10 @@
     transition-duration: 250ms;
     transition-timing-function: linear;
     overflow-y: scroll;
-    // @include desktop{
-    //     overflow: hidden;
+    @include desktop{
+        overflow: hidden;
 
-    // }
+    }
 }
 .is-hidden {
     opacity: 0;
@@ -25,45 +25,32 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) ;
-    // @include tablet{
-    //     top: 50%;
-    //     left: 50%;
-    //     transform: translate(-50%,-22%) ;
-    // }
-    // @include desktop{
-    //     top: 50%;
-    //     left: 50%;
-    //     transform: translate(-50%,-45%) ;
-    // }
+    transform: translate(-49%,-42%) ;
+    @include tablet{
+         transform: translate(-50%,-50%) ;
+    }
+     @include desktop{
+         transform: translate(-50%,-50%) ;
+    }
+
 }
-// .modal__container{
-//     position: relative;
-//     width: 630px;
-//     @include tablet{
-//         width: 630px;
-//     }
-//     @include desktop{
-//         width: 630px;
-//     }
-// }
 .button__close{
     position: absolute;
     z-index: 100;
-    top: 0;
-    right: 0;
+    top: 12px;
+    right: 12px;
     padding: 0;
     width: 24px;
     height: 24px;
     border: none;
     background-color: var(--white);
     @include tablet{
-        top: 15px;
-        right: 0; 
+        top: 16px;
+        right: 16px; 
     }
     @include desktop {
-        top: 20px;
-        right: 20px;
+        top: 16px;
+        right: 16px;
     }
     
 }

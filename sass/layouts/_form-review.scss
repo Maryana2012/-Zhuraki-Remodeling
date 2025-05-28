@@ -66,7 +66,6 @@
     background-color: var(--beidg);
     border: 2px solid var(--beidg);;
     border-radius: 32px;
-  
     color: var(--black-2);
 }
 .button:hover,
@@ -76,6 +75,7 @@
 }
 .form__button-svg{
     margin-left: 8px;
+    fill: var(--pure-white);
 }
 
 .input__user-svg{

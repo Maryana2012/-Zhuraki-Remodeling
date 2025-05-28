@@ -1055,6 +1055,11 @@ img {
   transition-timing-function: linear;
   overflow-y: scroll;
 }
+@media screen and (min-width: 1440px) {
+  .backdrop {
+    overflow: hidden;
+  }
+}
 
 .is-hidden {
   opacity: 0;
@@ -1066,14 +1071,24 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-49%, -42%);
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .modal {
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .modal {
+    transform: translate(-50%, -50%);
+  }
 }
 
 .button__close {
   position: absolute;
   z-index: 100;
-  top: 0;
-  right: 0;
+  top: 12px;
+  right: 12px;
   padding: 0;
   width: 24px;
   height: 24px;
@@ -1082,14 +1097,14 @@ img {
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .button__close {
-    top: 15px;
-    right: 0;
+    top: 16px;
+    right: 16px;
   }
 }
 @media screen and (min-width: 1440px) {
   .button__close {
-    top: 20px;
-    right: 20px;
+    top: 16px;
+    right: 16px;
   }
 }
 
@@ -1191,6 +1206,7 @@ img {
 
 .form__button-svg {
   margin-left: 8px;
+  fill: var(--pure-white);
 }
 
 .input__user-svg {
