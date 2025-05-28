@@ -12,12 +12,25 @@ const swiper = new Swiper('.mySwiper', {
   },
   loop: true,
   spaceBetween: 20,
-  // autoplay: {
-  // delay: 2000, 
-  //   disableOnInteraction: false, 
-  // },
+  autoplay: {
+  delay: 2000, 
+    disableOnInteraction: false, 
+  },
    thumbs: {
     swiper: swiperThumbs,
   },
 });
 
+const swiperTestimonial = new Swiper('.testimonialSwiper', {
+  navigation: {
+    nextEl: '.testimonial__next',
+    prevEl: '.testimonial__prev',
+  },
+  loop: true,
+  spaceBetween: 20,
+  autoplay: {
+  delay: 2000, 
+    disableOnInteraction: false, 
+  },
+
+});

@@ -89,15 +89,19 @@
       <p class="text__link ">Basement Remodeling</p>
   </div>
 
-  <form id="reviewForm" class="form picture__form">
+  <form id="quoteForm" class="form picture__form">
           <h2 class="solve__text pure-white ">Get a Free Quote</h2>
           <div class="form__container">
-            <input type="text" id="name" placeholder="Your name" required  class="input form__text"/>
-            <input type="text" id="city" placeholder="City" required  class="input form__text"/>
-            <textarea id="review" placeholder="Your review" required class="textarea form__text"></textarea>
+            <input type="text" id="quoteName" placeholder="Your Name" required  class="input form__text"/>
+            <img src="./images/user.svg" alt="user icon" class="input__user-svg">
+            <input type="tel" id="quoteTel" placeholder="Phone" required  class="input form__text"/>
+            <img src="./images/phone.svg" alt="phone ico" class="input__phone-svg">
+            <textarea id="message" placeholder="Write your message " required class="textarea form__text"></textarea>
           </div>
 
-        <button type="submit" class=" text__link button ">Submit</button>
+        <button type="submit" class=" text__link button ">Get a Free Quote
+          <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
+        </button>
         </form>
 </section>
 
@@ -310,7 +314,7 @@
   <div class="swiper-wrapper ">
     <div class="swiper-slide ">
       <picture>
-              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748163338/zhuraki/main%20page%20gallery/1_desk_1x-min_rywcdb.jpg 1x,
+              <source srcset="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748196135/zhuraki/swiper%20mini%20foto/1_qeczdi.jpg 1x,
               https://res.cloudinary.com/ddtdtthqh/image/upload/v1748198364/zhuraki/swiper%20mini%20foto/1_2x_ovhiob.jpg 2x" 
               />
               <img src="https://res.cloudinary.com/ddtdtthqh/image/upload/v1748196135/zhuraki/swiper%20mini%20foto/1_qeczdi.jpg" alt="modern room" />
@@ -367,37 +371,23 @@
 </div>
 </section>
 
-<section class="container__white">
+<section class="container__white testimonial__container">
   <h2 class="subtitle solve__subtitle">Testimonials</h2>
-    <div class="swiper mySwiper">
-  <div class="swiper-wrapper">
+  <div class="swiper testimonialSwiper">
+  <div class="swiper-wrapper" id="reviews-list">
 
-<div class="swiper-slide">
-    <div class="testimonials__item">
 
-    </div>
-</div>
-
-<div class="swiper-slide">
-    <div class="testimonials__item" >
-
-    </div>
-</div>
-
-<div class="swiper-slide">
-    <div  class="testimonials__item">
-
-  </div>
-</div>
 
  </div>
 
-  <div class=" custom__next">
-    <img src="./images/arrow-next.svg" alt="arrow-next" width="24" height="24">
-  </div>
-  <div class=" custom__prev">
-    <img src="./images/arrow-prew.svg" alt="arrow-prev" width="24" height="24">
-  </div>
+ <div class="testimonial__button-container">
+   <div class="testimonial__prev">
+     <img src="./images/arrow-prew.svg" alt="arrow-prev" width="24" height="24">
+   </div>
+    <div class="testimonial__next">
+      <img src="./images/arrow-next.svg" alt="arrow-next" width="24" height="24">
+    </div>
+ </div>
 
 </div>
 <button type="button" class="text testimonials__button modal-open" >Leave review</button>
@@ -405,12 +395,6 @@
 
 </section>
 
-<!-- <form id="reviewForm">
-  <input type="text" id="name" placeholder="Your name" required />
-  <textarea id="review" placeholder="Your review" required></textarea>
-  <button type="submit">Submit</button>
-</form>
-<div id="status"></div> -->
 
 <div class="backdrop is-hidden">
      <div class="modal">
@@ -421,11 +405,11 @@
          </button>
 
         <form id="reviewForm" class="form">
-          <h2 class="solve__text pure-white ">Get a Free Quote</h2>
+          <h2 class="solve__text pure-white ">Leave review</h2>
           <div class="form__container">
             <input type="text" id="name" placeholder="Your name" required  class="input form__text"/>
             <input type="text" id="city" placeholder="City" required  class="input form__text"/>
-            <textarea id="review" placeholder="Your review" required class="textarea form__text"></textarea>
+            <textarea id="review" placeholder="Your review"  maxlength="375" required class="textarea form__text"></textarea>
           </div>
 
         <button type="submit" class=" text__link button ">Submit</button>

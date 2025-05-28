@@ -100,4 +100,12 @@
     position: absolute;
     bottom: 16px;
     right: 16px;
+    @include tablet{
+       bottom: 161px;
+       right: 40px;
+    }
+    @include desktop{
+        bottom: 100px;
+        right: 60px;
+    }
 }

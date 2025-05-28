@@ -565,6 +565,18 @@ img {
   bottom: 16px;
   right: 16px;
 }
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .picture__form {
+    bottom: 161px;
+    right: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .picture__form {
+    bottom: 100px;
+    right: 60px;
+  }
+}
 
 .section__help {
   display: flex;
@@ -961,16 +973,25 @@ img {
   opacity: 1;
 }
 
-.testimonial__list {
+.testimonial__container {
+  position: relative;
+}
+
+.testimonialSwiper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: end;
   justify-content: center;
-  gap: 20px;
 }
 
 .testimonials__item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
   width: 100%;
   height: 185px;
+  padding: 24px 12px 12px 12px;
   background-color: var(--bg);
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
@@ -985,10 +1006,37 @@ img {
 }
 
 .testimonials__button {
+  position: absolute;
+  bottom: 24px;
+  left: 12px;
   border: 2px solid var(--beidg);
   border-radius: 24px;
   padding: 10px 0;
   width: 132px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .testimonials__button {
+    position: absolute;
+    bottom: 330px;
+    left: 570px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .testimonials__button {
+    position: absolute;
+    bottom: 380px;
+    left: 1230px;
+  }
+}
+
+.testimonial__text {
+  font-size: 12px;
+}
+
+.testimonial__button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
 }
 
 .backdrop {
@@ -1055,6 +1103,18 @@ img {
           backdrop-filter: blur(20px);
   background-color: rgba(0, 0, 0, 0.2);
 }
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .form {
+    width: 322px;
+    padding: 16px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .form {
+    width: 413px;
+    padding: 16px;
+  }
+}
 
 .form__container {
   display: flex;
@@ -1068,9 +1128,15 @@ img {
   display: flex;
   border: none;
   border-bottom: 1px solid var(--pure-white);
-  padding: 8px 0px;
+  padding: 20px 32px 8px 32px;
   width: 100%;
   background-color: transparent;
+}
+@media screen and (min-width: 1440px) {
+  .input,
+  .textarea {
+    padding: 20px 32px 8px 36px;
+  }
 }
 
 .input::-moz-placeholder, .textarea::-moz-placeholder {
@@ -1099,10 +1165,13 @@ img {
   font-weight: 300;
   font-size: 16px;
   line-height: 140%;
-  color: var(--black);
+  color: var(--pure-white);
 }
 
 .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 14px;
   background-color: var(--beidg);
@@ -1117,6 +1186,42 @@ img {
   border: 2px solid var(--pure-white);
 }
 
-.form__svg {
-  fill: var(--pure-white);
+.form__button-svg {
+  margin-left: 8px;
+}
+
+.input__user-svg {
+  position: absolute;
+  top: 77px;
+  left: 10px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .input__user-svg {
+    top: 67px;
+    left: 12px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .input__user-svg {
+    top: 62px;
+    left: 14px;
+  }
+}
+
+.input__phone-svg {
+  position: absolute;
+  top: 127px;
+  left: 10px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .input__phone-svg {
+    top: 116px;
+    left: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .input__phone-svg {
+    top: 110px;
+    left: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
