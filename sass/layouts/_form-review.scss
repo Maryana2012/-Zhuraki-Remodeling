@@ -4,7 +4,7 @@
     padding: 12px;
     width: 343px;
     backdrop-filter: blur(20px);
-    background-color: rgba(0, 0, 0, 0.2);
+    background: var(--bg);
     @include tablet{
         width: 382px;
         padding: 16px;
@@ -25,7 +25,7 @@
 .textarea{
     display: flex;
     border: none;
-    border-bottom: 1px solid var(--pure-white);
+    border-bottom: 1px solid var(--black);
     padding: 20px 32px 8px 32px;
     width: 100%;
     background-color: transparent;
@@ -33,10 +33,13 @@
       padding: 20px 32px 8px 36px;
     }
 }
+.textarea{
+    padding-left: 0;
+}
 .input::placeholder,
 .textarea::placeholder
 {   align-content: start;
-    color: var(--pure-white);
+    color: var(--black);
    
 }
 .input:focus,
@@ -55,7 +58,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 140%;
-    color: var(--pure-white);
+    color: var(--black);
 }
 .button{
     display: flex;
@@ -103,4 +106,26 @@
         top: 110px;
         left: 14px;
     }
+}
+.icon__user-black{
+position: absolute;
+top: 80px;
+left: 12px;
+@include tablet{
+    top: 65px;
+}
+@include desktop{
+    top: 65px;
+}
+}
+.icon__location{
+position: absolute;
+top: 130px;
+left: 12px;
+@include tablet{
+    top: 115px;
+}
+@include desktop{
+    top: 115px;
+}
 }

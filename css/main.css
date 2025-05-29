@@ -1119,7 +1119,7 @@ img {
   width: 343px;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
-  background-color: rgba(0, 0, 0, 0.2);
+  background: var(--bg);
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .form {
@@ -1145,7 +1145,7 @@ img {
 .textarea {
   display: flex;
   border: none;
-  border-bottom: 1px solid var(--pure-white);
+  border-bottom: 1px solid var(--black);
   padding: 20px 32px 8px 32px;
   width: 100%;
   background-color: transparent;
@@ -1157,15 +1157,19 @@ img {
   }
 }
 
+.textarea {
+  padding-left: 0;
+}
+
 .input::-moz-placeholder, .textarea::-moz-placeholder {
   align-content: start;
-  color: var(--pure-white);
+  color: var(--black);
 }
 
 .input::placeholder,
 .textarea::placeholder {
   align-content: start;
-  color: var(--pure-white);
+  color: var(--black);
 }
 
 .input:focus,
@@ -1187,7 +1191,7 @@ img {
   font-weight: 300;
   font-size: 16px;
   line-height: 140%;
-  color: var(--pure-white);
+  color: var(--black);
 }
 
 .button {
@@ -1246,6 +1250,38 @@ img {
   .input__phone-svg {
     top: 110px;
     left: 14px;
+  }
+}
+
+.icon__user-black {
+  position: absolute;
+  top: 80px;
+  left: 12px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .icon__user-black {
+    top: 65px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .icon__user-black {
+    top: 65px;
+  }
+}
+
+.icon__location {
+  position: absolute;
+  top: 130px;
+  left: 12px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .icon__location {
+    top: 115px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .icon__location {
+    top: 115px;
   }
 }
 
