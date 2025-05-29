@@ -71,7 +71,7 @@
 .string__container {
 //   display: flex;
   display: inline-block;
-  animation: scroll 10s linear infinite;
+  animation: scroll 30s linear infinite;
   width: 100%;
   @include desktop{
       width: 119%;

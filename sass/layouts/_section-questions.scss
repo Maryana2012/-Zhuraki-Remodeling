@@ -1,0 +1,112 @@
+.questions__container{
+    display: flex;
+    padding-top: 40px;
+    background-color: var(--black);
+    @include tablet{
+         padding-top: 48px;
+    }
+    @include desktop{
+        padding-top: 80px;
+    }
+}
+.questions__container-list{
+    
+    @include desktop{
+        width: 827px;
+    }
+}
+.questions__subtitle{
+    padding-bottom: 16px;
+    color: var(--pure-white);
+    border-bottom: 1px solid var(--gray-2);
+    @include desktop{
+      padding-bottom: 24px;
+}
+}
+.questions__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    // padding: 12px;
+}
+.questions__item{
+     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    width: 100%;
+    border-bottom: 1px solid var(--gray);
+    @include tablet{
+        justify-content: start;
+        align-items: start;
+    }
+    @include desktop{
+        justify-content: start;
+        align-items: start;
+        padding: 22px 20px;
+    }
+
+}
+.questions__block{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.questions__article-text{
+    color: var(--pure-white);
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.question__button-plus,
+.question__button-close{
+    border: none;
+    background-color: transparent;
+}
+
+.questions__icon-plus,
+.questions__icon-close{
+    position: absolute;
+        top: 0;
+        right: 0;
+    @include tablet{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    @include desktop{
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+.questions__article{
+   margin-top: 16px;
+   color: var(--bg);
+   width: 227px;
+   @include tablet{
+    width: 528px;
+    margin-left: 36px;
+   }
+   @include desktop{
+    width: 711px;
+    margin-left: 36px;
+   }
+}
+.is-hidden{
+    display: none;
+}
+.question__img{
+    display: none;
+    @include desktop{
+        display: block;
+        margin-left: 20px;
+        width: 416px;
+        height: 600px;
+    }
+}
