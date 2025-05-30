@@ -64,3 +64,29 @@
         left: 939px;
     }
 }
+.input__form__user{
+    position: absolute;
+    top: 103px;
+    left: 10px;
+    @include tablet{
+      top: 90px;
+      left: 12px;
+    }
+    @include desktop{
+        top: 62px;
+        left: 14px;
+    }
+}
+.input__form__phone{
+    position: absolute;
+    top: 149px;
+    left: 10px;
+    @include tablet{
+       top: 135px;
+       left: 14px;
+    }
+    @include desktop{
+        top: 110px;
+        left: 14px;
+    }
+}

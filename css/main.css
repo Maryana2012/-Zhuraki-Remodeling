@@ -1687,6 +1687,42 @@ img {
   }
 }
 
+.input__form__user {
+  position: absolute;
+  top: 103px;
+  left: 10px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .input__form__user {
+    top: 90px;
+    left: 12px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .input__form__user {
+    top: 62px;
+    left: 14px;
+  }
+}
+
+.input__form__phone {
+  position: absolute;
+  top: 149px;
+  left: 10px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .input__form__phone {
+    top: 135px;
+    left: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .input__form__phone {
+    top: 110px;
+    left: 14px;
+  }
+}
+
 .footer__container {
   padding: 40px 16px;
   background-color: var(--black);
