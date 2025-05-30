@@ -98,14 +98,71 @@
 
 .picture__form{
     position: absolute;
+    width: 343px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 12px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.2);
     bottom: 16px;
     right: 16px;
     @include tablet{
+       width: 322px;
+       padding: 16px;
        bottom: 161px;
        right: 40px;
     }
     @include desktop{
+        width: 413px;
+        padding: 16px;
         bottom: 100px;
         right: 60px;
     }
+}
+.quote__input,
+.quote__textarea{
+    display: flex;
+    border: none;
+    border-bottom: 1px solid var(--pure-white);
+    padding: 20px 32px 8px 32px;
+    width: 100%;
+    background-color: transparent;
+    @include desktop{
+      padding: 20px 32px 8px 36px;
+    }
+}
+.quote__textarea{
+    padding-left: 0;
+}
+.quote__input::placeholder,
+.quote__textarea::placeholder
+{   align-content: start;
+    color: var(--pure-white);   
+}
+.quote__input:focus,
+.quote__textarea:focus{
+    border: none;
+    outline: none;
+}
+.icon__user-black{
+position: absolute;
+top: 80px;
+left: 12px;
+@include tablet{
+    top: 65px;
+}
+@include desktop{
+    top: 65px;
+}
+}
+.icon__location{
+position: absolute;
+top: 130px;
+left: 12px;
+@include tablet{
+    top: 115px;
+}
+@include desktop{
+    top: 115px;
+}
 }

@@ -39,9 +39,9 @@
 .input::placeholder,
 .textarea::placeholder
 {   align-content: start;
-    color: var(--black);
-   
+    color: var(--black);   
 }
+
 .input:focus,
 .textarea:focus{
     border: none;
@@ -50,16 +50,17 @@
 .input:nth-child(even){
     margin-right: 0;
 }
-.testimonials__textarea{
+.review__textarea{
     height: 100px;
 }
 .form__text{
-    font-family: var(--font3);
+    font-family: var(--font-family);
     font-weight: 300;
     font-size: 16px;
     line-height: 140%;
     color: var(--black);
 }
+
 .button{
     display: flex;
     align-items: center;
@@ -106,26 +107,4 @@
         top: 110px;
         left: 14px;
     }
-}
-.icon__user-black{
-position: absolute;
-top: 80px;
-left: 12px;
-@include tablet{
-    top: 65px;
-}
-@include desktop{
-    top: 65px;
-}
-}
-.icon__location{
-position: absolute;
-top: 130px;
-left: 12px;
-@include tablet{
-    top: 115px;
-}
-@include desktop{
-    top: 115px;
-}
 }

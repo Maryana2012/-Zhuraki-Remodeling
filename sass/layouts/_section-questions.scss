@@ -12,7 +12,7 @@
 .questions__container-list{
     
     @include desktop{
-        width: 827px;
+        width: 847px;
     }
 }
 .questions__subtitle{
@@ -48,7 +48,7 @@
     @include desktop{
         justify-content: start;
         align-items: start;
-        padding: 22px 20px;
+        padding: 20px 20px;
     }
 
 }
@@ -108,5 +108,6 @@
         margin-left: 20px;
         width: 416px;
         height: 600px;
+        margin-top: 66px;
     }
 }

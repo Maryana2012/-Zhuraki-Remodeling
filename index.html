@@ -89,17 +89,19 @@
       <p class="text__link ">Basement Remodeling</p>
   </div>
 
-  <form id="quoteForm" class="form picture__form">
+  <form id="quoteForm" class=" picture__form"
+          action="https://formspree.io/f/mqaqrrdb"
+          method="POST">
           <h2 class="solve__text pure-white ">Get a Free Quote</h2>
           <div class="form__container">
-            <input type="text" id="quoteName" placeholder="Your Name" required  class="input form__text"/>
+            <input type="text" name="quoteName" placeholder="Your Name" required  class=" quote__input form-text pure-white"/>
             <img src="./images/user.svg" alt="user icon" class="input__user-svg">
-            <input type="tel" id="quoteTel" placeholder="Phone" required  class="input form__text"/>
+            <input type="tel" name="quoteTel" placeholder="Phone" required  class="quote__input form-text pure-white"/>
             <img src="./images/phone.svg" alt="phone ico" class="input__phone-svg">
-            <textarea id="message" placeholder="Write your message" required class="textarea form__text"></textarea>
+            <textarea name="message" placeholder="Write your message" required class="quote__textarea form-text pure-white"></textarea>
           </div>
 
-        <button type="submit" class=" text__link button ">Get a Free Quote
+        <button type="submit" id="quoteButton" class=" text__link button  ">Get a Free Quote
           <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
         </button>
         </form>
@@ -508,6 +510,35 @@
   </picture>
 </section>
 
+<section class="container__white talk__container">
+  <div class="talk__text-container">
+    <h2 class="subtitle pure-white">Ready to Talk About Your Project?</h2>
+    <article class="text talk__text">Send me a quick message and I’ll get back to you soon. No pressure — just honest answers and ideas</article>
+    <p class="solve__text pure-white">312-536-1007</p>
+    
+  </div>
+      <form id="talkForm" class=" talk__form"
+          action="https://formspree.io/f/mqaqrrdb"
+          method="POST">
+          <h2 class="solve__text pure-white ">let’s discuss the project</h2>
+          <div class="form__container">
+            <input type="text" name="quoteName" placeholder="Your Name" required  class=" quote__input form-text pure-white"/>
+            <img src="./images/user.svg" alt="user icon" class="input__user-svg">
+            <input type="tel" name="quoteTel" placeholder="Phone" required  class="quote__input form-text pure-white"/>
+            <img src="./images/phone.svg" alt="phone ico" class="input__phone-svg">
+            <textarea name="message" placeholder="Write your message" required class="quote__textarea form-text pure-white"></textarea>
+          </div>
+
+        <button type="submit" id="quoteButton" class=" text__link button  ">Get a Free Quote
+          <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
+        </button>
+        </form>
+</section>
+
+<footer class="footer__container">
+   
+</footer>
+
 <div class="backdrop is-hidden">
      <div class="modal">
 
@@ -522,7 +553,7 @@
             <input type="text" id="name" placeholder="Your name" required  class="input form__text"/>
             <img src="./images/location.svg" alt="icon location" class="icon__location">
             <input type="text" id="city" placeholder="Your city" required  class="input form__text"/>
-            <textarea id="review" placeholder="Write your review"  maxlength="375" required class="textarea testimonials__textarea form__text"></textarea>
+            <textarea id="review" placeholder="Write your review"  maxlength="375" required class="textarea review__textarea form__text"></textarea>
           </div>
 
         <button type="submit" class=" text__link button ">Submit</button>
@@ -538,5 +569,10 @@
 <script type="module" src="./js/settingsFB.js"></script>
 <script type="module" src="./js/review-modal.js"></script>
 <script type="module" src="./js/questions.js"></script>
+<script type="module" src="./js/form-quote-submit.js"></script>
+<!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  emailjs.init('7dlXe9n2RwcJ2OeO9'); // заміни на свій
+</script> -->
 </body>
 </html>
