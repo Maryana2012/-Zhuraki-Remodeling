@@ -231,6 +231,11 @@ img {
 }
 
 .container__header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
   display: flex;
   width: 375px;
   padding: 20px 16px;
@@ -328,11 +333,11 @@ img {
   }
 }
 
-.header__button-menu {
+.button__menu {
   border: none;
 }
 @media screen and (min-width: 1440px) {
-  .header__button-menu {
+  .button__menu {
     display: none;
   }
 }
@@ -361,18 +366,18 @@ img {
 }
 
 .hero__container {
-  padding-top: 58px;
+  padding-top: 123px;
   padding-bottom: 24px;
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .hero__container {
-    padding-top: 66px;
+    padding-top: 140px;
     padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1440px) {
   .hero__container {
-    padding-top: 102px;
+    padding-top: 181px;
     padding-bottom: 48px;
   }
 }
@@ -1126,7 +1131,8 @@ img {
   margin-top: 24px;
 }
 
-.backdrop {
+.backdrop,
+.backdrop__qoute {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -1140,7 +1146,8 @@ img {
   overflow-y: scroll;
 }
 @media screen and (min-width: 1440px) {
-  .backdrop {
+  .backdrop,
+  .backdrop__qoute {
     overflow: hidden;
   }
 }
@@ -1151,19 +1158,22 @@ img {
   visibility: hidden;
 }
 
-.modal {
+.modal,
+.modal__quote {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-49%, -42%);
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
-  .modal {
+  .modal,
+  .modal__quote {
     transform: translate(-50%, -50%);
   }
 }
 @media screen and (min-width: 1440px) {
-  .modal {
+  .modal,
+  .modal__quote {
     transform: translate(-50%, -50%);
   }
 }

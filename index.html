@@ -29,19 +29,19 @@
       <ul class="header__navigation">
         <li class="list">
           <a href="./index.html" class="link header__text">Home</a> </li>
-        <li class="list">
-          <a href="./gallery.html" class="link header__text">Gallery</a></li>
+        <!-- <li class="list">
+          <a href="./gallery.html" class="link header__text">Gallery</a></li> -->
       </ul>
      </nav>
      <a href="tel:3125361007" class="link header__phone header__text" >312-536-1007</a>
 
-     <a href="./index.html" class="link header__instagram">
+     <a href="https://www.instagram.com/zhurakiinc/" class="link header__instagram">
        <img src="./images/Instagram.svg" alt="instagram" width="24" height="24">
      </a>
 
-     <button class="header__button-form header__text">Get a free Quote</button>
+     <button class="header__button-form header__text modal__quote-open">Get a free Quote</button>
 
-     <button class="header__button-menu">
+     <button class="button__menu modal-open-quote">
        <img src="./images/menu-bar.svg" alt="menu-bar" width="24" height="24">
      </button>
   </header>
@@ -51,9 +51,9 @@
       <h2 class="title">Home Remodeling <span class="hero__title-span">You Can Count On</span></h2>
       <div class="hero__block">
         <article class="text hero__text">Transforming Kitchens, Bathrooms, Basements & More — With Quality Work and Honest Service</article>
-        <button class="hero__button text__link">View My Work
+        <!-- <button class="hero__button text__link">View My Work
           <img src="./images/arrow-right.svg" class="button__svg" alt="arrow-right">
-        </button>
+        </button> -->
       </div>
     </section>
     
@@ -90,7 +90,7 @@
   </div>
 
   <form id="quoteForm" class=" picture__form"
-          action="https://formspree.io/f/mqaqrrdb"
+          action="https://formspree.io/f/xvgroyva"
           method="POST">
           <h2 class="solve__text pure-white ">Get a Free Quote</h2>
           <div class="form__container">
@@ -147,7 +147,7 @@
     </li>
   </ul>
 
-  <a href="./gallery.html" class="link advantages__link advantages__text">View my work</a>
+  <!-- <a href="./gallery.html" class="link advantages__link advantages__text">View my work</a> -->
 </section>
 
 <section class="container__white solve__container">
@@ -175,7 +175,7 @@
       </li>
     </ul>
     <h3 class="solve__text">If you <span class="black">have something else</span> in mind — <span class="black">just ask</span></h3>
-    <button class="solve__button text__link">Text Me Now
+    <button class="solve__button text__link modal__quote-open">Text Me Now
       <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
     </button>
 </section>
@@ -186,12 +186,12 @@
   
     <div class="works__text__container">
          <h3 class="solve__text black__2 works__subtitle">Basement Remodel </h3>
-         <p class="works__text">Jersey City, NJ</p>
+         <p class="works__text">Illinois, Chicago</p>
          <p class="text__article works__article">Finished a dark, unused basement into a bright and cozy family space with new flooring, walls, and lighting</p>
         </div>
-        <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
+        <!-- <a href="./gallery.html" class="solve__button text__link link works__button">View Full Gallery
           <img src="./images/arrow-right.svg" alt="arrow-right" class="button__svg">
-        </a>
+        </a> -->
 
   </div>
 
@@ -513,12 +513,12 @@
 <section class="container__white talk__container">
   <div class="talk__text-container">
     <h2 class="subtitle pure-white">Ready to Talk About Your Project?</h2>
-    <article class="text talk__text">Send me a quick message and I’ll get back to you soon. No pressure — just honest answers and ideas</article>
+    <article class="text talk__text">Send me a quick message and I’ll get back to you soon.No pressure — just honest answers and ideas</article>
     <p class="solve__text pure-white">312-536-1007</p>
     
   </div>
       <form id="talkForm" class=" talk__form"
-          action="https://formspree.io/f/mqaqrrdb"
+          action="https://https://formspree.io/f/xvgroyva"
           method="POST">
           <h2 class="solve__text pure-white ">let’s discuss the project</h2>
           <div class="form__container">
@@ -544,7 +544,7 @@
       </div>
       <div class="footer__text-container">
         <h3 class="footer__subtitle">our location</h3>
-        <article class="footer__article">4935 N Menard Ave</article>
+        <article class="footer__article">4935 N Menard Ave, Illinois, Chicago</article>
       </div>
     </div>
     
@@ -597,6 +597,35 @@
       </div>
   </div>
 
+  <div class="backdrop__qoute is-hidden">
+    <div class="modal__quote">
+  
+      <button class="button__close modal__quote-close">
+        <img src="./images/close.svg" alt="icon close" width="24" height="24">
+      </button>
+  
+      <form id="quoteForm" class="form" 
+            action="https://formspree.io/f/xvgroyva"
+            method="POST">
+        <h2 class="solve__text black">Get a free quote</h2>
+        <div class="form__container">
+          <img src="./images/user_black.svg" alt="icon user black" class="icon__user-black">
+          <input type="text" name="quoteName" placeholder="Your name" required class="input form__text" />
+          <img src="./images/phone-call.svg" alt="Phone" class="icon__location" width="22" height="22">
+          <input type="tel" name="quoteTel" placeholder="Phone" required class="input form__text" />
+          <textarea name="message" placeholder="Write your message" maxlength="375" required
+            class="textarea review__textarea form__text"></textarea>
+        </div>
+  
+        <button type="submit" class=" text__link button ">Get a free quote
+          <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
+        </button>
+      </form>
+  
+      <div id="status"></div>
+    </div>
+  </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <script type="module" src="./js/swiper.js"></script>
@@ -604,6 +633,7 @@
 <script type="module" src="./js/review-modal.js"></script>
 <script type="module" src="./js/questions.js"></script>
 <script type="module" src="./js/form-quote-submit.js"></script>
+<script type="module" src="./js/modal-quote.js"></script>
 <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script>
   emailjs.init('7dlXe9n2RwcJ2OeO9'); // заміни на свій

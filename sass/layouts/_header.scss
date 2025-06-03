@@ -1,4 +1,9 @@
 .container__header{
+    position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
     display: flex;
     width: 375px;
     padding: 20px 16px;
@@ -75,7 +80,7 @@
         padding: 10px 16px;
     }
 }
-.header__button-menu{
+.button__menu{
     border: none;
     @include desktop{
         display: none;
