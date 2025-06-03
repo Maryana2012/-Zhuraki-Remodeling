@@ -71,13 +71,15 @@
         display: block;
         border: 2px solid var(--beidg);
         border-radius: 24px;
-        padding: 10px 16px;    
+        padding: 10px 16px;  
+        background-color: transparent;  
     }
     @include desktop{
         display: block;
         border: 2px solid var(--beidg);
         border-radius: 24px;
         padding: 10px 16px;
+        background-color: transparent;
     }
 }
 .button__menu{
