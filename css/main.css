@@ -180,9 +180,6 @@ img {
 }
 
 .solve__text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 22px;
@@ -291,6 +288,10 @@ img {
     gap: 32px;
     margin-left: 344px;
   }
+}
+
+.header__link {
+  padding: 8px;
 }
 
 .header__phone {
@@ -1137,7 +1138,8 @@ img {
 }
 
 .backdrop,
-.backdrop__qoute {
+.backdrop__qoute,
+.backdrop__menu-mobile {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -1152,7 +1154,8 @@ img {
 }
 @media screen and (min-width: 1440px) {
   .backdrop,
-  .backdrop__qoute {
+  .backdrop__qoute,
+  .backdrop__menu-mobile {
     overflow: hidden;
   }
 }
@@ -1205,6 +1208,76 @@ img {
     top: 16px;
     right: 16px;
   }
+}
+
+.modal__menu-mobile {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -19%);
+  width: 343px;
+  padding: 50px 16px;
+  background-color: var(--bg);
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .modal__menu-mobile {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.modal__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.button__menu_quote {
+  display: block;
+  width: 100%;
+  border: 2px solid var(--beidg);
+  border-radius: 24px;
+  padding: 10px 16px;
+  background-color: transparent;
+  margin-bottom: 48px;
+}
+
+.menu__mobile-subtitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black-2);
+  margin-bottom: 12px;
+}
+
+.menu__mobile-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--black-2);
+}
+
+.menu__mobile-instagram {
+  border: 1px solid var(--beidg);
+  border-radius: 24px;
+  padding: 8px 16px;
+  width: 115px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--black-2);
 }
 
 .form {
