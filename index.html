@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zhuraki Remodeling | Home Renovation & Tile Installation Experts</title>
     <meta name="description" content="Zhuraki Remodeling offers professional home renovation, tile installation, and finishing services. Reliable team, quality work, and outstanding results in every project.">
-    <meta name="keywords" content="home renovation, tile installation, remodeling services, drywall, painting, flooring, Zhuraci Remodeling">
+    <meta name="keywords" content="home renovation, tile installation, remodeling services, drywall, painting, flooring, Zhuraki Remodeling">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -20,36 +20,65 @@
 </head>
 <body>
   <header class="container__header">
-     <a href="./index.html" class="link">
-        <svg class="logo">
-          <use href="./images/symbol-defs.svg#icon-logo"></use>
-        </svg>
-     </a>
-     <nav>
-      <ul class="header__navigation">
-        <li class="list">
-          <a href="./index.html" class="link header__text header__link">Home</a> </li>
-        <!-- <li class="list">
-          <a href="./gallery.html" class="link header__text">Gallery</a></li> -->
-        <!-- <li class="list">
-            <a href="" class="link header__text header__link">Our services</a>
-        </li>
-        <li class="list">
-            <a href="" class="link header__text header__link">Contacts</a>
-        </li> -->
-      </ul>
-     </nav>
-     <a href="tel:3125361007" class="link header__phone header__text" >312-536-1007</a>
+    <div class="menu__desktop-container">
+      <a href="./index.html" class="link">
+         <svg class="logo">
+           <use href="./images/symbol-defs.svg#icon-logo"></use>
+         </svg>
+      </a>
+      <nav>
+       <ul class="header__navigation">
+         <li class="list">
+           <a href="./index.html" class="link header__text header__link">Home</a> </li>
+         <!-- <li class="list">
+           <a href="./gallery.html" class="link header__text">Gallery</a></li> -->
+         <!-- <li class="list">
+             <a href="" class="link header__text header__link">Our services</a>
+         </li>
+         <li class="list">
+             <a href="" class="link header__text header__link">Contacts</a>
+         </li> -->
+       </ul>
+      </nav>
+      <a href="tel:3125361007" class="link header__phone header__text" >312-536-1007</a>
+ 
+      <a href="https://www.instagram.com/zhurakiinc/" class="link header__instagram">
+        <img src="./images/Instagram.svg" alt="instagram" width="24" height="24">
+      </a>
+ 
+      <button class="header__button-form header__text modal__quote-open">Get a free Quote</button>
+ 
+      <button class="button__menu  modal-open-quote">
+        <img src="./images/menu-bar.svg" alt="menu-bar" width="24" height="24">
+      </button>
+      <!-- <button class="button__menu-close button__close is-hidden">
+        <img src="./images/icon-close-menu.svg" alt="icon close">
+      </button> -->
+    </div>
 
-     <a href="https://www.instagram.com/zhurakiinc/" class="link header__instagram">
-       <img src="./images/Instagram.svg" alt="instagram" width="24" height="24">
-     </a>
-
-     <button class="header__button-form header__text modal__quote-open">Get a free Quote</button>
-
-     <button class="button__menu  modal-open-quote">
-       <img src="./images/menu-bar.svg" alt="menu-bar" width="24" height="24">
-     </button>
+    <div class="menu-mobile-container is-hidden">
+      <nav>
+        <ul class="list modal__menu-list">
+          <li class="">
+            <a href="" class="link menu__mobile-text header__link">Gallery</a>
+          </li>
+          <li class="">
+            <a href="" class="link menu__mobile-text header__link">Our services</a>
+          </li>
+          <li class="">
+            <a href="" class="link menu__mobile-text header__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button__menu_quote modal__quote-open">Get a free Quote</button>
+      <div class="footer__follower__container">
+        <h3 class="menu__mobile-subtitle">Follow:</h3>
+        <a href="https://www.instagram.com/zhurakiinc/" class="link menu__mobile-instagram">INSTAGRAM</a>
+      </div>
+      <button class="button__menu-close button__close">
+        <img src="./images/icon-close-menu.svg" alt="icon close">
+      </button>
+      </div>
   </header>
 
   <section class="container__gray hero__container">
@@ -104,6 +133,8 @@
             <img src="./images/user.svg" alt="user icon" class="input__user-svg">
             <input type="tel" name="quoteTel" placeholder="Phone" required  class="quote__input form-text pure-white"/>
             <img src="./images/phone.svg" alt="phone ico" class="input__phone-svg">
+            <input type="mail" name="quoteMail" placeholder="Email" required class="quote__input form-text pure-white" />
+            <img src="./images/mail.svg" alt="Email" class="input__email-svg">
             <textarea name="message" placeholder="Write your message" required class="quote__textarea form-text pure-white"></textarea>
           </div>
 
@@ -532,6 +563,8 @@
             <img src="./images/user.svg" alt="user icon" class="input__form__user">
             <input type="tel" name="quoteTel" placeholder="Phone" required  class="quote__input form-text pure-white"/>
             <img src="./images/phone.svg" alt="phone ico" class="input__form__phone">
+            <input type="mail" name="quoteMail" placeholder="Email" required class="quote__input form-text pure-white" />
+            <img src="./images/mail.svg" alt="Email" class="input__email-svg">
             <textarea name="message" placeholder="Write your message" required class="quote__textarea form-text pure-white"></textarea>
           </div>
 
@@ -624,8 +657,9 @@
           <input type="text" name="quoteName" placeholder="Your name" required class="input form__text" />
           <img src="./images/phone-call.svg" alt="Phone" class="icon__location" width="22" height="22">
           <input type="tel" name="quoteTel" placeholder="Phone" required class="input form__text" />
-          <textarea name="message" placeholder="Write your message" maxlength="375" required
-            class="textarea review__textarea form__text"></textarea>
+          <img src="./images/phone-call.svg" alt="Phone" class="icon__location" width="22" height="22">
+          <input type="mail" name="quoteMail" placeholder="Email" required class="input form__text" />
+          <textarea name="message" placeholder="Write your message" maxlength="375" required class="textarea review__textarea form__text"></textarea>
         </div>
   
         <button type="submit" class=" text__link button ">Get a free quote

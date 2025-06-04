@@ -1,9 +1,14 @@
 .container__header{
     position: fixed;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 5;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    // display: flex;
+    
+}
+
+.menu__desktop-container{
     display: flex;
     width: 375px;
     padding: 20px 16px;
@@ -12,16 +17,16 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--beidg);
-    @include tablet{
-        width: 744px;
-        padding: 20px 40px;
-    }
-    @include desktop{
-        width: 1440px;
-        padding: 22px 80px;
-    }
+        @include tablet {
+            width: 744px;
+            padding: 20px 40px;
+        }
+    
+        @include desktop {
+            width: 1440px;
+            padding: 22px 80px;
+        }
 }
-
 .logo{
     width: 150px;
     height: 18px;

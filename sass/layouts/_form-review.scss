@@ -84,10 +84,10 @@
 
 .input__user-svg{
     position: absolute;
-    top: 77px;
+    top: 76px;
     left: 10px;
     @include tablet{
-      top: 67px;
+      top: 64px;
       left: 12px;
     }
     @include desktop{
@@ -97,14 +97,28 @@
 }
 .input__phone-svg{
     position: absolute;
-    top: 127px;
+    top: 122px;
     left: 10px;
     @include tablet{
-       top: 116px;
+       top: 110px;
        left: 14px;
     }
     @include desktop{
         top: 110px;
         left: 14px;
     }
+}
+.input__email-svg{
+    position: absolute;
+    top: 171px;
+    left: 10px;
+    @include tablet {
+        top: 159px;
+        left: 14px;
+        }
+    
+    @include desktop {
+        top: 158px;
+        left: 14px;
+        }
 }
