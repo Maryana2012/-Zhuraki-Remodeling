@@ -3,16 +3,14 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
-    // display: flex;
-    
+    z-index: 5;  
 }
 
 .menu__desktop-container{
     display: flex;
     width: 375px;
     padding: 20px 16px;
-    margin: 0 auto;
+    // margin: 0 auto;
     background-color: var(--bg);
     align-items: center;
     justify-content: space-between;
@@ -46,9 +44,11 @@
      display: none;
      @include desktop{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
         gap: 32px;
-        margin-left: 344px;
+        margin-left: 244px;
      }
 }
 .header__link{
