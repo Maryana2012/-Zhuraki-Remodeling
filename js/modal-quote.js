@@ -13,12 +13,14 @@
 // })
 
 const buttonOpen = document.querySelectorAll('.modal__quote-open');
+console.log(buttonOpen)
 const closeModal = document.querySelector('.modal__quote-close')
 const modal = document.querySelector('.backdrop__qoute');
 
 buttonOpen.forEach(button=> button.addEventListener("click",
   (event=>{
     const clickedButton = event.currentTarget;
+    console.log(buttonOpen)
     
     if(clickedButton){
       toggleModal();
