@@ -166,3 +166,17 @@ left: 12px;
     top: 115px;
 }
 }
+.icon__email-black{
+    position: absolute;
+    top: 130px;
+    left: 12px;
+    
+    @include tablet {
+        top: 168px;
+        left: 15px;
+    }
+    @include desktop {
+        top: 168px;
+        left: 15px;
+    }
+}

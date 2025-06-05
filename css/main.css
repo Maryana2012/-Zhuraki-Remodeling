@@ -676,6 +676,24 @@ img {
   }
 }
 
+.icon__email-black {
+  position: absolute;
+  top: 130px;
+  left: 12px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .icon__email-black {
+    top: 168px;
+    left: 15px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .icon__email-black {
+    top: 168px;
+    left: 15px;
+  }
+}
+
 .section__help {
   display: flex;
   flex-direction: column;
