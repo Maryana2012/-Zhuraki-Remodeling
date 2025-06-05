@@ -122,3 +122,18 @@
         left: 14px;
         }
 }
+.input__email-svg-white{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    
+     @include tablet {
+            top: 185px;
+            left: 14px;
+        }
+    
+        @include desktop {
+            top: 158px;
+            left: 14px;
+        }
+}

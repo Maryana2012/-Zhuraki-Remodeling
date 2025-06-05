@@ -232,6 +232,10 @@ img {
   background-color: var(--black-2);
 }
 
+.is-hidden {
+  display: none !important;
+}
+
 :root {
   --black: #040301;
   --black-2: #1b1407;
@@ -1406,6 +1410,24 @@ img {
   }
 }
 
+.input__email-svg-white {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .input__email-svg-white {
+    top: 185px;
+    left: 14px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .input__email-svg-white {
+    top: 158px;
+    left: 14px;
+  }
+}
+
 .running__container {
   position: relative;
   padding-top: 80px;
@@ -1655,10 +1677,6 @@ img {
     width: 711px;
     margin-left: 36px;
   }
-}
-
-.is-hidden {
-  display: none;
 }
 
 .question__img {
