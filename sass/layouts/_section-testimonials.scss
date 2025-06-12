@@ -1,5 +1,16 @@
 .testimonial__container{
     position: relative;
+    width: 375px;
+    margin: 0 auto;
+    padding: 48px 16px;
+    @include tablet{
+        width: 744px;
+        padding: 48px 40px;
+    }
+    @include desktop{
+        width: 1440px;
+        padding: 80px 80px;
+    }
 }
 
 .testimonialSwiper{

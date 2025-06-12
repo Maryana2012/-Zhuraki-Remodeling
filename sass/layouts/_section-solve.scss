@@ -2,6 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 375px;
+    padding: 48px 16px;
+    margin: 0 auto;
+    @include tablet{
+        width: 744px;
+        padding: 48px 40px;
+    }
+    @include desktop{
+        width: 1440px;
+        padding: 80px 80px;
+    }
+    
 }
 .solve__subtitle{
     padding: 0px 0px 16px 0px;

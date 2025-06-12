@@ -1,13 +1,20 @@
 .hero__container{
-    padding-top: 123px;
-    padding-bottom: 24px;
+    width: 375px;
+    padding: 123px 16px 24px 16px ;
+    // padding-top: 123px;
+    // padding-bottom: 24px;
+    margin: 0 auto;
     @include tablet{
-         padding-top: 140px;
-         padding-bottom: 50px;
+        width: 744px;
+        padding: 140px 40px 50px 40px;
+        //  padding-top: 140px;
+        //  padding-bottom: 50px;
     }
     @include desktop{
-        padding-top: 181px;
-         padding-bottom: 48px;
+        width: 1440px;
+        padding: 181px 80px 48px 80px;
+        // padding-top: 181px;
+        //  padding-bottom: 48px;
     }
 }
 .hero__title-span{

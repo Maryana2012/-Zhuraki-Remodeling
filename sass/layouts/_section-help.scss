@@ -1,14 +1,21 @@
 .section__help{
+    width: 375px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 16px;
+    padding: 80px 16px 16px 16px;
+    margin: 0 auto;
+    // padding-bottom: 16px;
     border-bottom: 1px solid var(--beidg);
     @include tablet{
-        padding-bottom: 24px;
+        width: 744px;
+        padding: 120px 40px 24px 40px;
+        // padding-bottom: 24px;
     }
     @include desktop{
+        width: 1440px;
         flex-direction: row;
-        padding-bottom: 24px;
+        padding: 160px 80px 24px 80px;
+        // padding-bottom: 24px;
     }
 }
 .help__image{

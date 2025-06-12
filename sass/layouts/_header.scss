@@ -4,6 +4,15 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 5;  
+    width: 375px;
+    // margin: 0 auto;
+    // background-color: var(--bg);
+    @include tablet{
+        width: 744px;
+    }
+    @include desktop{
+        width: 1440px;
+    }
 }
 
 .menu__desktop-container{

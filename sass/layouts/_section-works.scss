@@ -3,12 +3,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: end;
+    margin: 0 auto;
+    width: 375px;
+    padding: 80px 16px;
     @include tablet{
-
+      width: 744px;
+      padding: 120px 40px;
     }
     @include desktop{
         flex-direction: row;
         align-items: center;
+        width: 1440px;
+        padding: 160px 80px;
+
     }
 
 }

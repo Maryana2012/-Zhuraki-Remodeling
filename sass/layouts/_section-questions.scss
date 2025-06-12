@@ -1,12 +1,19 @@
 .questions__container{
     display: flex;
-    padding-top: 40px;
-    background-color: var(--black);
+    width: 375px;
+    margin: 0 auto;
+    // padding-top: 40px;
+    padding: 40px 16px 80px 16px;
+    // background-color: var(--black);
     @include tablet{
-         padding-top: 48px;
+        width: 744px;
+        //  padding-top: 48px;
+         padding: 48px 40px 120px 40px;
     }
     @include desktop{
-        padding-top: 80px;
+        width: 1440px;
+        // padding-top: 80px;
+        padding: 80px 80px 160px 80px;
     }
 }
 .questions__container-list{

@@ -1,14 +1,18 @@
 .talk__container{
     position: relative;
+    width: 375px;
     height: 732px;
+    margin: 0 auto;
     background-image: url("https://res.cloudinary.com/ddtdtthqh/image/upload/v1748541261/zhuraki/last%20section/mob_1x-min_tyeudg.jpg");
     padding: 64px 16px 28px 16px;
     @include tablet{
+        width: 744px;
         padding: 80px 40px 125px 40px;
         height: 606px;
         background-image: url("https://res.cloudinary.com/ddtdtthqh/image/upload/v1748541261/zhuraki/last%20section/tab_1x-min_kj0ata.jpg");
     }
     @include desktop{
+        width: 1440px;
         padding: 98px 80px 201px 80px;
         height: 585px;
         background-image: url("https://res.cloudinary.com/ddtdtthqh/image/upload/v1748541261/zhuraki/last%20section/desk_1x-min_hmiwk8.jpg");

@@ -1,13 +1,20 @@
 .running__container{
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 16px;
+    width: 375px;
+    margin: 0 auto;
+    padding: 80px 16px 16px 16px ;
+    // padding-top: 80px;
+    // padding-bottom: 16px;
     @include tablet{
-        padding-top: 154px;
+      width: 744px;
+      padding: 154px 40px 40px 40px;
+        // padding-top: 154px;
     }
     @include desktop{
-        padding-top: 260px;
-        padding-left: 60px;
+      width: 1440px;
+      padding: 260px 80px 160px 60px;
+        // padding-top: 260px;
+        // padding-left: 60px;
     }
 }
 
