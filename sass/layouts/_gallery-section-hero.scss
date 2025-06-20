@@ -1,0 +1,23 @@
+.gallery__hero__container{
+    width: 375px;
+    padding: 93px 16px 20px 16px;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--beidg);
+     @include tablet {
+        width: 744px;
+        padding: 140px 40px 50px 40px;
+        }
+    @include desktop {
+        width: 1440px;
+        padding: 181px 80px 48px 80px;
+        }
+}
+.gallery__title{
+    margin: 0;
+}
+.gallery__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}

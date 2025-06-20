@@ -1,46 +1,14 @@
-// .container{
-//     width: 375px;
-//     @include tablet{
-//         width: 744px;   
-//     }
-//     @include desktop{
-//         width: 1440px;
-//     }
-// }
-
 .container__gray{
-    // width: 375px;
-    // padding: 80px 16px;
-    // margin: 0 auto;
     width: 100%;
     background-color: var(--bg);
-    // @include tablet{
-    //     width: 744px;
-    //     padding: 120px 40px;
-    // }
-    // @include desktop{
-    //     width: 1440px;
-    //     padding: 160px 80px;
-    // }
 }
 .container__black{
     width: 100%;
     background-color: var(--black);
 }
 .container__white{
-    // width: 375px;
-    // padding: 48px 16px;
-    // margin: 0 auto;
     width: 100%;
     background-color: var(--bg-2);
-    // @include tablet{
-    //     // width: 744px;
-        // padding: 48px 40px;
-    // }
-    // @include desktop{
-    //     // width: 1440px;
-    //     padding: 80px 80px;
-    // }
 }
 
 .title{

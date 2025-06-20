@@ -17,6 +17,8 @@
   const form = document.getElementById("reviewForm");
   const statusDiv = document.getElementById("status");
 
+// console.log(form);
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const name = document.getElementById("name").value;
@@ -46,7 +48,9 @@ let swiperTestimonial;
 
 function renderReviewsLive() {
   const reviewsList = document.getElementById("reviews-list");
+  console.log(reviewsList)
   const reviewsRef = collection(db, "reviews");
+
 
   onSnapshot(reviewsRef, (snapshot) => {
     reviewsList.innerHTML = "";
