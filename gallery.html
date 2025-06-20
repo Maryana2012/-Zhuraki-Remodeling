@@ -36,7 +36,7 @@
                    <a href="./gallery.html" class="link header__text header__link">Gallery</a>
                  </li>
                  <li>
-                   <a href="" class="link header__text header__link">Our services</a>
+                   <a href="./index.html#services" class="link header__text header__link">Our services</a>
                  </li>
                  <!-- <li>
                      <a href="" class="link header__text header__link">Contacts</a>
@@ -66,7 +66,7 @@
                     <a href="./gallery.html" class="link menu__mobile-text header__link">Gallery</a>
                   </li>
                   <li class="">
-                    <a href="" class="link menu__mobile-text header__link">Our services</a>
+                    <a href="./index.html#services" class="link menu__mobile-text header__link">Our services</a>
                   </li>
                   <!-- <li class="">
                     <a href="" class="link menu__mobile-text header__link">Contacts</a>
@@ -432,7 +432,7 @@
                         </div>
                         <div class="footer__text-container">
                             <h3 class="footer__subtitle">our location</h3>
-                            <p class="footer__article">4935 N Menard Ave, Illinois, Chicago</p>
+                            <a href="https://maps.app.goo.gl/3QQsr4uesby6tfw9A" class="link footer__article">4935 N Menard Ave, Illinois, Chicago</a>
                         </div>
                     </div>
         
@@ -445,23 +445,19 @@
                 <div>
                     <ul class="footer__link__list">
                         <li class="footer__link__item">
-                            <a href="" class="link footer__links">about us</a>
+                            <a href="/index.html#about" class="link footer__links">about us</a>
                         </li>
                         <li class="footer__link__item">
-                            <a href="" class="link footer__links">services</a>
+                            <a href="./index.html#services" class="link footer__links">services</a>
                         </li>
                         <li class="footer__link__item">
-                            <a href="" class="link footer__links">our works</a>
+                            <a href="./index.html#works" class="link footer__links">our works</a>
                         </li>
                         <li class="footer__link__item">
-                            <a href="" class="link footer__links">faq</a>
+                            <a href="./index.html#faq" class="link footer__links">faq</a>
                         </li>
                     </ul>
                 </div>
-                <!-- <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83673.77354722226!2d-87.8564108802135!3d41.978666596119126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcc06f037f881%3A0xb90d7e0e7fbea410!2s4935%20N%20Menard%20Ave!5e0!3m2!1suk!2sua!4v1748963877466!5m2!1suk!2sua"
-                        width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 <img src="./images/logo-footer-mob.svg" class="footer__logo" alt="logo">
             </div> 
     </footer>
@@ -490,6 +486,35 @@
             <div id="status"></div>
         </div>
     </div>
+
+    <div class="backdrop__qoute is-hidden">
+        <div class="modal__quote">
+    
+            <button class="button__close modal__quote-close">
+                <img src="./images/close.svg" alt="icon close" width="24" height="24">
+            </button>
+    
+            <form id="quoteForm" class="form" action="https://formspree.io/f/xvgroyva" method="POST">
+                <h2 class="solve__text black">Get a free quote</h2>
+                <div class="form__container">
+                    <img src="./images/user_black.svg" alt="icon user black" class="icon__user-black">
+                    <input type="text" name="quoteName" placeholder="Your name" required class="input form__text" />
+                    <img src="./images/phone-black.svg" alt="Phone" class="icon__location" width="22" height="22">
+                    <input type="tel" name="quoteTel" placeholder="Phone" required class="input form__text" />
+                    <img src="./images/mail-black.svg" alt="Email" class="icon__email-black" width="22" height="22">
+                    <input type="email" name="quoteMail" placeholder="Email" required class="input form__text" />
+                    <textarea name="message" placeholder="Write your message" maxlength="375" required
+                        class="textarea review__textarea form__text"></textarea>
+                </div>
+    
+                <button type="submit" class=" text__link button ">Get a free quote
+                    <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
+                </button>
+            </form>
+    
+            <div id="status"></div>
+        </div>
+        </div>
 
    
 
