@@ -5,8 +5,6 @@
     transform: translateX(-50%);
     z-index: 5;  
     width: 375px;
-    // margin: 0 auto;
-    // background-color: var(--bg);
     @include tablet{
         width: 744px;
     }
@@ -19,7 +17,6 @@
     display: flex;
     width: 375px;
     padding: 20px 16px;
-    // margin: 0 auto;
     background-color: var(--bg);
     align-items: center;
     justify-content: space-between;
@@ -28,7 +25,6 @@
             width: 744px;
             padding: 20px 40px;
         }
-    
         @include desktop {
             width: 1440px;
             padding: 22px 80px;
