@@ -1,8 +1,8 @@
 .gallery__hero__container{
     width: 375px;
-    padding: 93px 16px 20px 16px;
+    padding: 93px 16px 80px 16px;
     margin: 0 auto;
-    border-bottom: 1px solid var(--beidg);
+   
      @include tablet {
         width: 744px;
         padding: 140px 40px 50px 40px;
@@ -13,11 +13,26 @@
         }
 }
 .gallery__title{
-    margin: 0;
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--beidg);
 }
 .gallery__list{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.gallery__button__load{
+    border: 2px solid var(--beidg);
+    border-radius: 24px;
+    padding: 10px 16px;
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--black-2);
 }

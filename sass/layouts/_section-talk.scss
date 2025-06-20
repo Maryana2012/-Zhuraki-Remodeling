@@ -1,10 +1,12 @@
 .talk__container{
     position: relative;
     width: 375px;
-    height: 732px;
+    height: 832px;
     margin: 0 auto;
     background-image: url("https://res.cloudinary.com/ddtdtthqh/image/upload/v1748541261/zhuraki/last%20section/mob_1x-min_tyeudg.jpg");
     padding: 64px 16px 28px 16px;
+    background-size: cover;
+    background-repeat: no-repeat;
     @include tablet{
         width: 744px;
         padding: 80px 40px 125px 40px;
