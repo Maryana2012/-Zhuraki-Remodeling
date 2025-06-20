@@ -199,6 +199,11 @@ img {
   display: none !important;
 }
 
+button:hover,
+button:focus {
+  cursor: pointer;
+}
+
 :root {
   --black: #040301;
   --black-2: #1b1407;
@@ -1181,7 +1186,7 @@ img {
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .testimonials__button {
     position: absolute;
-    bottom: 400px;
+    bottom: 415px;
     left: 560px;
   }
 }
@@ -1204,8 +1209,7 @@ img {
 }
 
 .backdrop,
-.backdrop__qoute,
-.backdrop__swiper {
+.backdrop__qoute {
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -1220,15 +1224,13 @@ img {
 }
 @media screen and (min-width: 1440px) {
   .backdrop,
-  .backdrop__qoute,
-  .backdrop__swiper {
+  .backdrop__qoute {
     overflow: hidden;
   }
 }
 
 .modal,
-.modal__quote,
-.swiper-modal {
+.modal__quote {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1236,15 +1238,13 @@ img {
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .modal,
-  .modal__quote,
-  .swiper-modal {
+  .modal__quote {
     transform: translate(-50%, -50%);
   }
 }
 @media screen and (min-width: 1440px) {
   .modal,
-  .modal__quote,
-  .swiper-modal {
+  .modal__quote {
     transform: translate(-50%, -50%);
   }
 }
@@ -2201,11 +2201,4 @@ img {
   .gallery__button__load {
     width: 194px;
   }
-}
-
-.swiper img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
 }/*# sourceMappingURL=main.css.map */
