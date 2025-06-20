@@ -735,6 +735,7 @@ img {
   position: relative;
   width: 375px;
   display: flex;
+  flex-direction: column;
   align-items: end;
   padding: 24px 16px 80px 16px;
   margin: 0 auto;
@@ -749,6 +750,7 @@ img {
   .advantages__container {
     width: 1440px;
     padding: 32px 80px 16px 80px;
+    flex-direction: column;
   }
 }
 
@@ -1173,21 +1175,21 @@ img {
   left: 12px;
   border: 2px solid var(--beidg);
   border-radius: 24px;
-  padding: 10px 0;
-  width: 132px;
+  padding: 10px 16px;
+  background-color: transparent;
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .testimonials__button {
     position: absolute;
     bottom: 400px;
-    left: 570px;
+    left: 560px;
   }
 }
 @media screen and (min-width: 1440px) {
   .testimonials__button {
     position: absolute;
     bottom: 375px;
-    left: 1230px;
+    left: 1210px;
   }
 }
 
@@ -2136,6 +2138,10 @@ img {
 }
 
 .gallery__hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 375px;
   padding: 93px 16px 80px 16px;
   margin: 0 auto;
@@ -2143,7 +2149,7 @@ img {
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .gallery__hero__container {
     width: 744px;
-    padding: 140px 40px 50px 40px;
+    padding: 140px 40px 120px 40px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -2154,6 +2160,7 @@ img {
 }
 
 .gallery__title {
+  width: 100%;
   margin-bottom: 24px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--beidg);
@@ -2170,6 +2177,7 @@ img {
 
 .gallery__button__load {
   border: 2px solid var(--beidg);
+  background-color: transparent;
   border-radius: 24px;
   padding: 10px 16px;
   width: 100%;
@@ -2178,4 +2186,14 @@ img {
   font-size: 16px;
   line-height: 140%;
   color: var(--black-2);
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .gallery__button__load {
+    width: 194px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .gallery__button__load {
+    width: 194px;
+  }
 }/*# sourceMappingURL=main.css.map */

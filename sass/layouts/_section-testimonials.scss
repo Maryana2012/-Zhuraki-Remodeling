@@ -44,17 +44,18 @@
     left: 12px;
     border: 2px solid var(--beidg);
     border-radius: 24px;
-    padding: 10px 0;
-    width: 132px;
+    padding: 10px 16px;
+    // width: 132px;
+    background-color: transparent;
     @include tablet{
         position: absolute;
         bottom: 400px;
-        left: 570px;
+        left: 560px;
     }
     @include desktop{
         position: absolute;
         bottom: 375px;
-        left: 1230px;
+        left: 1210px;
     }
  
 }
