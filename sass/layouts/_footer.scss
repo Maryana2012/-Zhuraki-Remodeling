@@ -69,6 +69,11 @@
          font-size: 18px;
     }
 } 
+
+.footer__article:hover,
+.footer__article:focus{
+    color: var(--beidg);
+}
 .footer__follower__container{
     display: flex;
     flex-direction: column;
@@ -99,6 +104,11 @@
         font-size: 16px;
     }
 }
+.footer__instagram:hover,
+.footer__instagram:focus{
+    background: var(--beidg);
+    border: 1px solid var(--beidg);
+}
 .footer__link__list{
     display: flex;
     align-items: center;
@@ -124,6 +134,10 @@
     @include tablet{
         font-size: 16px
     }
+}
+.footer__links:hover,
+.footer__links:focus{
+    color: var(--beidg);
 }
 .footer__logo{
     margin-top: 12px;

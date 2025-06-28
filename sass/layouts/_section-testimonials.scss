@@ -59,6 +59,11 @@
     }
  
 }
+.testimonials__button:hover,
+.testimonials__button:focus{
+    background: var(--beidg);
+    color: var(--gray);
+}
 .testimonial__text{
     font-size: 12px;
 }

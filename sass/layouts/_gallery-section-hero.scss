@@ -49,3 +49,8 @@
         width: 194px;
     }
 }
+.gallery__button__load:hover,
+.gallery__button__load:focus{
+    background: var(--beidg);
+    color: var(--gray);
+}

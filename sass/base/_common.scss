@@ -141,6 +141,32 @@
     display: none !important;
 }
 
+.primary__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 32px;
+    border: none;
+    background-color: var(--black);  
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--pure-white);
+}
+.primary__button:hover,
+.primary__button:focus{
+    background: var(--beidg);
+    color: var(--black-2);
+}
+
+
+.secondary__button{
+
+}
+
 button:hover,
 button:focus{
     cursor: pointer;

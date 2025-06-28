@@ -61,7 +61,7 @@
     color: var(--black);
 }
 
-.button{
+.form__button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,10 +72,12 @@
     border-radius: 32px;
     color: var(--black-2);
 }
-.button:hover,
-.button:focus{
+.form__button:hover,
+.form__button:focus{
     cursor: pointer;
     border: 2px solid var(--pure-white);
+    background-color: transparent;
+    color: var(--pure-white);
 }
 .form__button-svg{
     margin-left: 8px;

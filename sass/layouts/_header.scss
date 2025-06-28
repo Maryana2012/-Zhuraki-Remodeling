@@ -92,6 +92,11 @@
         background-color: transparent;
     }
 }
+.header__button-form:hover,
+.header__button-form:focus{
+    background: var(--beidg);
+    color: var(--gray);
+}
 .button__menu{
     border: none;
     @include desktop{

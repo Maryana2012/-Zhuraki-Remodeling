@@ -1,20 +1,14 @@
 .hero__container{
     width: 375px;
     padding: 123px 16px 24px 16px ;
-    // padding-top: 123px;
-    // padding-bottom: 24px;
     margin: 0 auto;
     @include tablet{
         width: 744px;
         padding: 140px 40px 50px 40px;
-        //  padding-top: 140px;
-        //  padding-bottom: 50px;
     }
     @include desktop{
         width: 1440px;
         padding: 181px 80px 48px 80px;
-        // padding-top: 181px;
-        //  padding-bottom: 48px;
     }
 }
 .hero__title-span{
@@ -37,13 +31,13 @@
     }
 }
 .hero__button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border-radius: 32px;
-    border: none;
-    background-color: var(--black);
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // width: 100%;
+    // border-radius: 32px;
+    // border: none;
+    // background-color: var(--black);
     padding: 12px 14px 12px 24px;
     @include tablet{
         width: 236px;   

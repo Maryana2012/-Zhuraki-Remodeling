@@ -73,6 +73,11 @@
         width: 194px;
     }
 }
+.advantages__link:hover,
+.advantages__link:focus{
+    background: var(--beidg);
+    color: var(--gray);
+}
 .advantages__text{
     font-family: var(--font-family);
     font-weight: 400;
