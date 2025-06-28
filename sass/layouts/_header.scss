@@ -59,10 +59,16 @@
 .header__link{
    padding: 8px;
 }
+
 .header__phone{
    margin-left: 50px;
+   padding: 6px;
    @include tablet{
-    margin-left: 72px;
+    margin-left: 62px;
+    padding: 8px;
+   }
+   @include desktop{
+    padding: 8px;
    }
 }
 
@@ -75,6 +81,19 @@
         display: block;
     }
 }
+.header__link:hover,
+.header__link:focus,
+.header__phone:hover,
+.header__phone:focus,
+.header__instagram:hover,
+.header__instagram:focus{
+    background-color: var(--beidg);
+    color: var(--pure-white);
+    // border: 2px solid var(--beidg);
+    border-radius: 32px;
+
+}
+
 .header__button-form{
     display: none;
     @include tablet{

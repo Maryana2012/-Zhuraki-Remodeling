@@ -319,10 +319,17 @@ button:focus {
 
 .header__phone {
   margin-left: 50px;
+  padding: 6px;
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .header__phone {
-    margin-left: 72px;
+    margin-left: 62px;
+    padding: 8px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header__phone {
+    padding: 8px;
   }
 }
 
@@ -338,6 +345,17 @@ button:focus {
   .header__instagram {
     display: block;
   }
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__phone:hover,
+.header__phone:focus,
+.header__instagram:hover,
+.header__instagram:focus {
+  background-color: var(--beidg);
+  color: var(--pure-white);
+  border-radius: 32px;
 }
 
 .header__button-form {
@@ -2138,6 +2156,12 @@ button:focus {
   margin-bottom: 48px;
 }
 
+.button__menu_quote:hover,
+.button__menu_quote:focus {
+  background: var(--beidg);
+  color: var(--gray);
+}
+
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .button__menu-mob {
     display: none;
@@ -2184,6 +2208,12 @@ button:focus {
   .menu__mobile-instagram {
     display: none;
   }
+}
+
+.menu__mobile-instagram:hover,
+.menu__mobile-instagram:focus {
+  background: var(--beidg);
+  color: var(--gray);
 }
 
 .gallery__hero__container {

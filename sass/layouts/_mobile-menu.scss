@@ -55,6 +55,13 @@
     background-color: transparent;
     margin-bottom: 48px;
 }
+
+.button__menu_quote:hover,
+.button__menu_quote:focus{
+    background: var(--beidg);
+        color: var(--gray);
+
+}
 .button__menu-mob{
     @include tablet{
         display: none;
@@ -96,4 +103,9 @@
     @include tablet{
         display: none;
     }
+}
+.menu__mobile-instagram:hover,
+.menu__mobile-instagram:focus{
+    background: var(--beidg);
+        color: var(--gray);
 }
