@@ -74,20 +74,48 @@
 }
 .form__button:hover,
 .form__button:focus{
-    cursor: pointer;
+    // cursor: pointer;
     border: 2px solid var(--pure-white);
-    background-color: transparent;
+    // background-color: transparent;
     color: var(--pure-white);
+    // fill: var(--pure-white);
 }
-.form__button-svg{
+// .form__button-svg{
+//     margin-left: 8px;
+//     // fill: var(--pure-white);
+// }
+.svg__user{
+    width: 24px;
+    height: 24px;
+}
+// .svg__user-black{
+//     width: 24px;
+//     height: 24px;
+//     // fill: var(--black-2);
+// }
+
+.svg__arrow__black{
+    width: 24px;
+    height: 24px;
     margin-left: 8px;
-    fill: var(--pure-white);
 }
 
+.form__svg-cross{
+    width: 24px;
+    height: 24px;
+    // fill: var(--black-2);
+    border: 1 solid var(--black-2);
+}
+.form__button:hover .svg__arrow__black,
+.form__button:focus .svg__arrow__black{
+    fill: var(--pure-white);
+}
 .input__user-svg{
     position: absolute;
     top: 76px;
     left: 10px;
+    width: 24px;
+    height: 24px;
     @include tablet{
       top: 64px;
       left: 12px;
@@ -97,6 +125,21 @@
         left: 14px;
     }
 }
+.input__location-svg {
+    position: absolute;
+        top: 130px;
+        left: 12px;
+        width: 24px;
+        height: 24px;
+        @include tablet {
+            top: 115px;
+        }
+    
+        @include desktop {
+            top: 115px;
+        }
+}
+
 .input__phone-svg{
     position: absolute;
     top: 122px;

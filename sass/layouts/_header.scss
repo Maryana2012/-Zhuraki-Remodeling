@@ -81,6 +81,15 @@
         display: block;
     }
 }
+.svg__instagram{
+    width: 24px;
+    height: 24px;
+}
+.svg__close{
+    width: 18px;
+    height: 18px;
+}
+
 .header__link:hover,
 .header__link:focus,
 .header__phone:hover,
@@ -89,10 +98,12 @@
 .header__instagram:focus{
     background-color: var(--beidg);
     color: var(--pure-white);
-    // border: 2px solid var(--beidg);
     border-radius: 32px;
+    // fill: var(--pure-white);
 
 }
+
+
 
 .header__button-form{
     display: none;
@@ -122,10 +133,10 @@
         display: none;
     }
 }
-.mob__menu{
-    width: 24px;
-    height: 24px;
-}
+// .mob__menu{
+//     width: 24px;
+//     height: 24px;
+// }
 
 .header__text{
        font-family: var(--font-family);

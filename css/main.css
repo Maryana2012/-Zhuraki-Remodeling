@@ -221,6 +221,11 @@ img {
   color: var(--black-2);
 }
 
+.primary__button:hover .svg__arrow__white,
+.primary__button:focus .svg__arrow__white {
+  fill: var(--black-2);
+}
+
 button:hover,
 button:focus {
   cursor: pointer;
@@ -347,6 +352,16 @@ button:focus {
   }
 }
 
+.svg__instagram {
+  width: 24px;
+  height: 24px;
+}
+
+.svg__close {
+  width: 18px;
+  height: 18px;
+}
+
 .header__link:hover,
 .header__link:focus,
 .header__phone:hover,
@@ -393,11 +408,6 @@ button:focus {
   .button__menu {
     display: none;
   }
-}
-
-.mob__menu {
-  width: 24px;
-  height: 24px;
 }
 
 .header__text {
@@ -472,6 +482,13 @@ button:focus {
   .hero__button {
     width: 413px;
   }
+}
+
+.svg__arrow__white {
+  fill: var(--pure-white);
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
 }
 
 .hero__block {
@@ -840,6 +857,9 @@ button:focus {
   position: absolute;
   top: 12px;
   right: 12px;
+  width: 15px;
+  height: 15px;
+  fill: var(--beidg);
 }
 
 .advantages__link {
@@ -1413,14 +1433,29 @@ button:focus {
 
 .form__button:hover,
 .form__button:focus {
-  cursor: pointer;
   border: 2px solid var(--pure-white);
-  background-color: transparent;
   color: var(--pure-white);
 }
 
-.form__button-svg {
+.svg__user {
+  width: 24px;
+  height: 24px;
+}
+
+.svg__arrow__black {
+  width: 24px;
+  height: 24px;
   margin-left: 8px;
+}
+
+.form__svg-cross {
+  width: 24px;
+  height: 24px;
+  border: 1 solid var(--black-2);
+}
+
+.form__button:hover .svg__arrow__black,
+.form__button:focus .svg__arrow__black {
   fill: var(--pure-white);
 }
 
@@ -1428,6 +1463,8 @@ button:focus {
   position: absolute;
   top: 76px;
   left: 10px;
+  width: 24px;
+  height: 24px;
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .input__user-svg {
@@ -1439,6 +1476,24 @@ button:focus {
   .input__user-svg {
     top: 62px;
     left: 14px;
+  }
+}
+
+.input__location-svg {
+  position: absolute;
+  top: 130px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+}
+@media screen and (min-width: 744px) and (max-width: 1439px) {
+  .input__location-svg {
+    top: 115px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .input__location-svg {
+    top: 115px;
   }
 }
 
@@ -1703,6 +1758,30 @@ button:focus {
   color: var(--pure-white);
   margin-left: 10px;
   margin-bottom: 0;
+}
+
+.questions__svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--pure-white);
+}
+
+.questions__svg-plus {
+  width: 40px;
+  height: 40px;
+  fill: var(--beidg);
+  background-color: var(--black-2);
+  border-radius: 50px;
+  padding: 8px;
+}
+
+.questions__svg-cross {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 8px;
+  fill: var(--beidg);
+  background-color: var(--gray);
 }
 
 .question__button-plus,
@@ -2134,15 +2213,15 @@ button:focus {
   top: 20px;
   right: 20px;
   padding: 0;
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   border: none;
   background-color: var(--bg);
 }
 @media screen and (min-width: 744px) and (max-width: 1439px) {
   .button__menu-close {
     top: 30px;
-    right: 45px;
+    right: 46px;
   }
 }
 

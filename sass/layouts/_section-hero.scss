@@ -33,7 +33,7 @@
 .hero__button{
     // display: flex;
     // align-items: center;
-    // justify-content: center;
+    // justify-content:space-around;
     // width: 100%;
     // border-radius: 32px;
     // border: none;
@@ -45,6 +45,12 @@
     @include desktop{
         width: 413px;
     }
+}
+.svg__arrow__white{
+    fill: var(--pure-white);
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
 }
 .hero__block{
     display: flex;

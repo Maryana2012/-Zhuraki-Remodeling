@@ -161,11 +161,11 @@
     background: var(--beidg);
     color: var(--black-2);
 }
-
-
-.secondary__button{
-
+.primary__button:hover .svg__arrow__white,
+.primary__button:focus .svg__arrow__white{
+   fill: var(--black-2);
 }
+
 
 button:hover,
 button:focus{

@@ -23,67 +23,80 @@
 <body>
     <header class="container__header">
         <div class="menu__desktop-container">
-            <a href="./index.html" class="link">
-                <svg class="logo">
-                    <use href="./images/symbol-defs.svg#icon-logo"></use>
-                </svg>
-            </a>
-            <nav>
-                <ul class="header__navigation list">
-                    <li>
-                        <a href="./index.html" class="link header__text header__link">Home</a>
-                    </li>
-                    <li>
-                   <a href="./gallery.html" class="link header__text header__link">Gallery</a>
-                 </li>
-                 <!-- <li>
-                   <a href="./index.html#services" class="link header__text header__link">Our services</a>
-                 </li> -->
-                 <!-- <li>
-                     <a href="" class="link header__text header__link">Contacts</a>
-                  </li> -->
-                </ul>
-            </nav>
-            <a href="tel:3125361007" class="link header__phone header__text">312-536-1007</a>
-    
-            <a href="https://www.instagram.com/zhurakiinc/" class="link header__instagram">
-                <img src="./images/Instagram.svg" alt="instagram" width="24" height="24">
-            </a>
-    
-            <button class="header__button-form header__text modal__quote-open">Get a free Quote</button>
-    
-            <button class="button__menu">
-                <img src="./images/menu-bar.svg" alt="menu-bar" width="24" height="24">
-            </button>
+          <a href="./index.html" class="link">
+             <svg class="logo">
+               <use href="./images/symbol-defs.svg#icon-logo"></use>
+             </svg>
+          </a>
+          <nav>
+           <ul class="header__navigation list">
+             <li>
+               <a href="./index.html" class="link header__text header__link">Home</a> 
+              </li>
+             <li>
+               <a href="./gallery.html" class="link header__text header__link">Gallery</a>
+             </li>
+             <!-- <li>
+               <a href="#services" class="link header__text header__link">Our services</a>
+             </li> -->
+             <!-- <li>
+                 <a href="" class="link header__text header__link">Contacts</a>
+              </li> -->
+           </ul>
+          </nav>
+          <a href="tel:3125361007" class="link header__phone header__text" >312-536-1007</a>
+     
+          <a href="https://www.instagram.com/zhurakiinc/" class="link header__instagram">
+            <svg class="svg__instagram">
+              <use xlink:href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+            <!-- <img src="./images/Instagram.svg" alt="instagram" width="24" height="24"> -->
+          </a>
+     
+          <button class="header__button-form header__text modal__quote-open">Get a free Quote</button>
+     
+          <button class="button__menu">
+            <svg class="svg__instagram">
+              <use href="./images/symbol-defs.svg#icon-menu"></use>
+            </svg>
+            <!-- <img src="./images/menu-bar.svg" alt="menu-bar" width="24" height="24"> -->
+          </button>
         </div>
     
         <div class="menu-mobile-container is-hidden">
-            <nav class="menu__mobile-nav">
-                <ul class="list menu__list">
-                    <li class="">
-                        <a href="./index.html" class="link menu__mobile-text header__link">Home</a>
-                    </li>
-                    <li class="">
-                    <a href="./gallery.html" class="link menu__mobile-text header__link">Gallery</a>
-                  </li>
-                  <!-- <li class="">
-                    <a href="./index.html#services" class="link menu__mobile-text header__link">Our services</a>
-                  </li> -->
-                  <!-- <li class="">
-                    <a href="" class="link menu__mobile-text header__link">Contacts</a>
-                  </li> -->
-                </ul>
-            </nav>
-            <button class="button__menu_quote modal__quote-open button__menu-mob">Get a free Quote</button>
-            <div class="footer__follower__container">
-                <h3 class="menu__mobile-subtitle">Follow:</h3>
-                <a href="https://www.instagram.com/zhurakiinc/" class="link menu__mobile-instagram">INSTAGRAM</a>
-            </div>
-            <button class="button__menu-close button__close">
-                <img src="./images/icon-close-menu.svg" alt="icon close">
-            </button>
-        </div>   
-    </header>
+          <nav class="menu__mobile-nav">
+            <ul class="list menu__list">
+              <li class="">
+                <a href="./index.html" class="link menu__mobile-text header__link">Home</a>
+              </li>
+              <li class="">
+                <a href="./gallery.html" class="link menu__mobile-text header__link">Gallery</a>
+              </li>
+              <!-- <li class="">
+                <a href="./index.html#services" class="link menu__mobile-text header__link">Our services</a>
+              </li> -->
+              <!-- <li class="">
+                <a href="" class="link menu__mobile-text header__link">Contacts</a>
+              </li> -->
+            </ul>
+          </nav>
+          <button class="button__menu_quote modal__quote-open button__menu-mob">Get a free Quote</button>
+          <div class="footer__follower__container">
+            <h3 class="menu__mobile-subtitle">Follow:</h3>
+            <a href="https://www.instagram.com/zhurakiinc/" class="link menu__mobile-instagram">INSTAGRAM</a>
+          </div>
+          <button class="button__menu-close button__close">
+            <svg class="svg__close">
+              <use xlink:href="./images/symbol-defs.svg#icon-close"></use>
+            </svg>
+            <!-- <img src="./images/icon-close-menu.svg" alt="icon close"> -->
+          </button>
+          </div>
+    
+      
+    
+      </header>
+    
 
     <main>
         <section class="container__gray">
@@ -448,7 +461,9 @@
                         </div>
             
                         <button type="submit" id="quoteButton" class=" text__link form__button  ">Get a Free Quote
-                            <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
+                            <svg class="svg__arrow__black">
+                                <use href="./images/symbol-defs.svg#icon-arrow-right"></use>              </svg>
+                            <!-- <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg"> -->
                         </button>
                     </form>
             
@@ -517,7 +532,7 @@
                         class="textarea review__textarea form__text"></textarea>
                 </div>
     
-                <button type="submit" class=" text__link button ">Submit</button>
+                <button type="submit" class=" text__link form__button ">Submit</button>
             </form>
     
             <div id="status"></div>
@@ -544,8 +559,10 @@
                         class="textarea review__textarea form__text"></textarea>
                 </div>
     
-                <button type="submit" class=" text__link button ">Get a free quote
-                    <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg">
+                <button type="submit" class=" text__link form__button ">Get a free quote
+                    <svg class="svg__arrow__black">
+                        <use href="./images/symbol-defs.svg#icon-arrow-right"></use>      </svg>
+                    <!-- <img src="./images/arrow-narrow-right.svg" alt="arrow right black" class="form__button-svg"> -->
                 </button>
             </form>
     
